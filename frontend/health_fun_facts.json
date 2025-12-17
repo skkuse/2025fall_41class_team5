@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "fact": "초콜릿 냄새만 맡아도 스트레스 호르몬이 줄어든다.",
+    "source": "https://www.jstage.jst.go.jp/article/jea/30/4/30_JE20180249/_article?utm_source=chatgpt.com"
+  },
+  {
+    "id": 2,
+    "fact": "강아지를 10분만 쓰다듬어도 스트레스가 유의하게 감소한다.",
+    "source": "https://www.verywellmind.com/health-benefits-of-humor-and-laughter-5101137?utm_source=chatgpt.com"
+  },
+  {
+    "id": 3,
+    "fact": "초록색 자연 풍경만 봐도 통증 민감도가 줄어든다.",
+    "source": "https://shs.touro.edu/news/stories/25-fascinating-facts-about-the-health-sciences.php?utm_source=chatgpt.com"
+  },
+  {
+    "id": 4,
+    "fact": "라벤더 향은 잠드는 시간을 평균 약 7분 단축한다.",
+    "source": "https://www.health.harvard.edu/mind-and-mood/exercise-can-boost-your-memory-and-thinking-skills?utm_source=chatgpt.com"
+  },
+  {
+    "id": 5,
+    "fact": "하루 6분 독서만으로 스트레스가 약 60% 감소한다.",
+    "source": "https://www.cognitive-neuropsychology.net?utm_source=chatgpt.com"
+  },
+  {
+    "id": 6,
+    "fact": "차가운 음료는 집중력과 반응속도를 즉각 개선시킨다.",
+    "source": "https://pubmed.ncbi.nlm.nih.gov/10751106/?utm_source=chatgpt.com"
+  },
+  {
+    "id": 7,
+    "fact": "좋아하는 음악을 '상상'만 해도 기분이 좋아진다.",
+    "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9953392/?utm_source=chatgpt.com"
+  },
+  {
+    "id": 8,
+    "fact": "가짜라도 웃으면 기분이 실제로 좋아진다.",
+    "source": "https://www.verywellmind.com/health-benefits-of-humor-and-laughter-5101137?utm_source=chatgpt.com"
+  },
+  {
+    "id": 9,
+    "fact": "카페 소음 수준이 창의성을 자극해 집중력이 오를 수 있다.",
+    "source": "https://academic.oup.com/sleep/article/47/1/zsad253/7280269?utm_source=chatgpt.com"
+  },
+  {
+    "id": 10,
+    "fact": "20초 포옹만으로도 옥시토신이 증가해 면역이 향상된다.",
+    "source": "https://www.psychologicalscience.org/news/releases/the-power-of-a-hug?utm_source=chatgpt.com"
+  },
+  {
+    "id": 11,
+    "fact": "하루 20분 빠른 걷기만으로 사망률이 약 20% 낮아진다.",
+    "source": "https://www.axios.com/local/nashville/2025/08/14/fast-walking-improve-longevity-prevent-death?utm_source=chatgpt.com"
+  },
+  {
+    "id": 12,
+    "fact": "걷기 습관이 있는 사람은 감기로 쉬는 날이 43% 적다.",
+    "source": "https://www.health.harvard.edu/staying-healthy/5-surprising-benefits-of-walking?utm_source=chatgpt.com"
+  },
+  {
+    "id": 13,
+    "fact": "하루 한 컵의 커피가 우울감 위험을 낮출 수 있다.",
+    "source": "https://evidation.com/blog/23-health-facts-surprising-insights-for-wellness?utm_source=chatgpt.com"
+  },
+  {
+    "id": 14,
+    "fact": "반려견과 생활하는 청소년은 사회적 문제 점수가 낮다.",
+    "source": "https://www.theguardian.com/society/2025/dec/03/pet-dog-improve-teenager-mental-health-study?utm_source=chatgpt.com"
+  },
+  {
+    "id": 15,
+    "fact": "작은 기쁨을 주는 행동 5~10분만으로 기분과 수면이 좋아진다.",
+    "source": "https://www.sfchronicle.com/health/article/joy-mood-life-health-20372907.php?utm_source=chatgpt.com"
+  },
+  {
+    "id": 16,
+    "fact": "자연 이미지 보기만 해도 통증·스트레스가 감소한다.",
+    "source": "https://shs.touro.edu/news/stories/25-fascinating-facts-about-the-health-sciences.php?utm_source=chatgpt.com"
+  },
+  {
+    "id": 17,
+    "fact": "웃는 표정은 스트레스 반응을 낮추는 신경 신호를 만든다.",
+    "source": "https://www.verywellmind.com/health-benefits-of-humor-and-laughter-5101137?utm_source=chatgpt.com"
+  },
+  {
+    "id": 18,
+    "fact": "초콜릿 향은 코르티솔을 떨어뜨려 기분을 좋게 한다.",
+    "source": "https://shs.touro.edu/news/stories/25-fascinating-facts-about-the-health-sciences.php?utm_source=chatgpt.com"
+  },
+  {
+    "id": 19,
+    "fact": "초가공식품은 뇌 보상체계를 자극해 중독처럼 행동하게 만든다.",
+    "source": "https://www.virtua.org/articles/4-surprising-health-truths-you-should-know?utm_source=chatgpt.com"
+  },
+  {
+    "id": 20,
+    "fact": "붉은 머리 사람은 통증·마취 반응이 달라 용량이 다르게 필요할 수 있다.",
+    "source": "https://midwestexpressclinic.com/surprising-weird-health-facts/?utm_source=chatgpt.com"
+  }
+]

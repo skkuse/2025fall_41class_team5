@@ -1,0 +1,572 @@
+[
+  {
+    "id": "48d4d9bc-65f6-4bad-b602-1b04266eb961",
+    "title": "기준년도 - 용어 정의",
+    "domain": null,
+    "source": [
+      "국민건강보험공단. (2024). 국민건강정보데이터 건강검진정보 사용자 매뉴얼. 원본: 국민건강보험공단 / 공공데이터포털.",
+      "Johns Hopkins Medicine. (n.d.). Health. https://www.hopkinsmedicine.org/health",
+      "National Institutes of Health. (n.d.). Medical encyclopedia. MedlinePlus. https://medlineplus.gov/",
+      "Atkinson, M. A., Eisenbarth, G. S., & Michels, A. W. (2014). Type 1 diabetes. The Lancet, 383(9911), 69–82.",
+      "Harvey, R. A., & Ferrier, D. R. (2011). Biochemistry (Lippincott’s Illustrated Reviews). Lippincott Williams & Wilkins."
+    ],
+    "content": "의학적 정의 해당 없음(메타데이터).",
+    "category": "definition",
+    "standard_name": "exam_year"
+  },
+  {
+    "id": "b618e68b-8a87-4711-b655-3a1a79f85412",
+    "title": "가입자 일련번호 - 용어 정의",
+    "domain": null,
+    "source": [
+      "국민건강보험공단. (2024). 국민건강정보데이터 건강검진정보 사용자 매뉴얼. 원본: 국민건강보험공단 / 공공데이터포털.",
+      "Johns Hopkins Medicine. (n.d.). Health. https://www.hopkinsmedicine.org/health",
+      "National Institutes of Health. (n.d.). Medical encyclopedia. MedlinePlus. https://medlineplus.gov/",
+      "Atkinson, M. A., Eisenbarth, G. S., & Michels, A. W. (2014). Type 1 diabetes. The Lancet, 383(9911), 69–82.",
+      "Harvey, R. A., & Ferrier, D. R. (2011). Biochemistry (Lippincott’s Illustrated Reviews). Lippincott Williams & Wilkins."
+    ],
+    "content": "의학적 정의 해당 없음(메타데이터).",
+    "category": "definition",
+    "standard_name": "person_id"
+  },
+  {
+    "id": "9d9c2676-a69d-48ed-9bc4-ec37b77c76cc",
+    "title": "성별코드 - 용어 정의",
+    "domain": null,
+    "source": [
+      "국민건강보험공단. (2024). 국민건강정보데이터 건강검진정보 사용자 매뉴얼. 원본: 국민건강보험공단 / 공공데이터포털.",
+      "Johns Hopkins Medicine. (n.d.). Health. https://www.hopkinsmedicine.org/health",
+      "National Institutes of Health. (n.d.). Medical encyclopedia. MedlinePlus. https://medlineplus.gov/",
+      "Atkinson, M. A., Eisenbarth, G. S., & Michels, A. W. (2014). Type 1 diabetes. The Lancet, 383(9911), 69–82.",
+      "Harvey, R. A., & Ferrier, D. R. (2011). Biochemistry (Lippincott’s Illustrated Reviews). Lippincott Williams & Wilkins."
+    ],
+    "content": "의학적 정의 해당 없음(메타데이터). 단, 생물학적 성 차이는 일부 검사값의 생리적 차이를 유발.",
+    "category": "definition",
+    "standard_name": "sex"
+  },
+  {
+    "id": "341cb2d1-5102-40bd-99a2-0139b89c07ac",
+    "title": "연령대 코드 - 용어 정의",
+    "domain": null,
+    "source": [
+      "국민건강보험공단. (2024). 국민건강정보데이터 건강검진정보 사용자 매뉴얼. 원본: 국민건강보험공단 / 공공데이터포털.",
+      "Johns Hopkins Medicine. (n.d.). Health. https://www.hopkinsmedicine.org/health",
+      "National Institutes of Health. (n.d.). Medical encyclopedia. MedlinePlus. https://medlineplus.gov/",
+      "Atkinson, M. A., Eisenbarth, G. S., & Michels, A. W. (2014). Type 1 diabetes. The Lancet, 383(9911), 69–82.",
+      "Harvey, R. A., & Ferrier, D. R. (2011). Biochemistry (Lippincott’s Illustrated Reviews). Lippincott Williams & Wilkins."
+    ],
+    "content": "의학적 정의 해당 없음(메타데이터). 연령은 대사·호르몬·신장/간 기능 등 생리 변화를 좌우.",
+    "category": "definition",
+    "standard_name": "age_group"
+  },
+  {
+    "id": "35185141-4c74-4375-8627-36396047569d",
+    "title": "시도코드 - 용어 정의",
+    "domain": null,
+    "source": [
+      "국민건강보험공단. (2024). 국민건강정보데이터 건강검진정보 사용자 매뉴얼. 원본: 국민건강보험공단 / 공공데이터포털.",
+      "Johns Hopkins Medicine. (n.d.). Health. https://www.hopkinsmedicine.org/health",
+      "National Institutes of Health. (n.d.). Medical encyclopedia. MedlinePlus. https://medlineplus.gov/",
+      "Atkinson, M. A., Eisenbarth, G. S., & Michels, A. W. (2014). Type 1 diabetes. The Lancet, 383(9911), 69–82.",
+      "Harvey, R. A., & Ferrier, D. R. (2011). Biochemistry (Lippincott’s Illustrated Reviews). Lippincott Williams & Wilkins."
+    ],
+    "content": "의학적 정의 해당 없음(메타데이터). 지역 환경·생활습관 차이가 건강지표에 간접 영향 가능.",
+    "category": "definition",
+    "standard_name": "region_code"
+  },
+  {
+    "id": "648f19ef-2eca-466a-99e7-c1c6b4fe68ea",
+    "title": "신장(Height) - 용어 정의",
+    "domain": null,
+    "source": [
+      "국민건강보험공단. (2024). 국민건강정보데이터 건강검진정보 사용자 매뉴얼. 원본: 국민건강보험공단 / 공공데이터포털.",
+      "Johns Hopkins Medicine. (n.d.). Health. https://www.hopkinsmedicine.org/health",
+      "National Institutes of Health. (n.d.). Medical encyclopedia. MedlinePlus. https://medlineplus.gov/",
+      "Atkinson, M. A., Eisenbarth, G. S., & Michels, A. W. (2014). Type 1 diabetes. The Lancet, 383(9911), 69–82.",
+      "Harvey, R. A., & Ferrier, D. R. (2011). Biochemistry (Lippincott’s Illustrated Reviews). Lippincott Williams & Wilkins."
+    ],
+    "content": "신체 길이. 성장·영양·호르몬 상태 등 전신 발달의 간접 지표이며, 체표면적·약물 용량 산정의 보조 변수로 쓰임.",
+    "category": "definition",
+    "standard_name": "height_cm"
+  },
+  {
+    "id": "36e98196-5b65-437a-ae65-b0c090bb37dd",
+    "title": "체중(Weight) - 용어 정의",
+    "domain": null,
+    "source": [
+      "국민건강보험공단. (2024). 국민건강정보데이터 건강검진정보 사용자 매뉴얼. 원본: 국민건강보험공단 / 공공데이터포털.",
+      "Johns Hopkins Medicine. (n.d.). Health. https://www.hopkinsmedicine.org/health",
+      "National Institutes of Health. (n.d.). Medical encyclopedia. MedlinePlus. https://medlineplus.gov/",
+      "Atkinson, M. A., Eisenbarth, G. S., & Michels, A. W. (2014). Type 1 diabetes. The Lancet, 383(9911), 69–82.",
+      "Harvey, R. A., & Ferrier, D. R. (2011). Biochemistry (Lippincott’s Illustrated Reviews). Lippincott Williams & Wilkins."
+    ],
+    "content": "체내 지방·근육·수분을 포함한 총 질량. 영양 상태와 체성분(지방·근육) 변화를 반영하며 부종·탈수 등 체액 이상에 민감.",
+    "category": "definition",
+    "standard_name": "weight_kg"
+  },
+  {
+    "id": "e887da8e-9f81-4591-9866-39959bf0a875",
+    "title": "허리둘레(Waist Circumference) - 용어 정의",
+    "domain": null,
+    "source": [
+      "국민건강보험공단. (2024). 국민건강정보데이터 건강검진정보 사용자 매뉴얼. 원본: 국민건강보험공단 / 공공데이터포털.",
+      "Johns Hopkins Medicine. (n.d.). Health. https://www.hopkinsmedicine.org/health",
+      "National Institutes of Health. (n.d.). Medical encyclopedia. MedlinePlus. https://medlineplus.gov/",
+      "Atkinson, M. A., Eisenbarth, G. S., & Michels, A. W. (2014). Type 1 diabetes. The Lancet, 383(9911), 69–82.",
+      "Harvey, R. A., & Ferrier, D. R. (2011). Biochemistry (Lippincott’s Illustrated Reviews). Lippincott Williams & Wilkins."
+    ],
+    "content": "복부(내장) 지방 축적을 반영하는 인체 계측 지표. 인슐린 저항성·지방간·대사증후군·심혈관질환 위험과 밀접히 연관.",
+    "category": "definition",
+    "standard_name": "waist_cm"
+  },
+  {
+    "id": "4caa1c21-931e-45f2-b644-6e8851c14453",
+    "title": "시력(좌) - 용어 정의",
+    "domain": null,
+    "source": [
+      "국민건강보험공단. (2024). 국민건강정보데이터 건강검진정보 사용자 매뉴얼. 원본: 국민건강보험공단 / 공공데이터포털.",
+      "Johns Hopkins Medicine. (n.d.). Health. https://www.hopkinsmedicine.org/health",
+      "National Institutes of Health. (n.d.). Medical encyclopedia. MedlinePlus. https://medlineplus.gov/",
+      "Atkinson, M. A., Eisenbarth, G. S., & Michels, A. W. (2014). Type 1 diabetes. The Lancet, 383(9911), 69–82.",
+      "Harvey, R. A., & Ferrier, D. R. (2011). Biochemistry (Lippincott’s Illustrated Reviews). Lippincott Williams & Wilkins."
+    ],
+    "content": "좌안의 시각 분해능. 굴절이상(근·원·난시)과 망막/시신경/시피질 기능의 종합 결과로 나타나며, 백내장·녹내장·황반변성 등 안과 질환의 단서가 됨.",
+    "category": "definition",
+    "standard_name": "vision_left"
+  },
+  {
+    "id": "c7488c8a-12e9-4ebc-85fc-6b68cf865d03",
+    "title": "시력(우) - 용어 정의",
+    "domain": null,
+    "source": [
+      "국민건강보험공단. (2024). 국민건강정보데이터 건강검진정보 사용자 매뉴얼. 원본: 국민건강보험공단 / 공공데이터포털.",
+      "Johns Hopkins Medicine. (n.d.). Health. https://www.hopkinsmedicine.org/health",
+      "National Institutes of Health. (n.d.). Medical encyclopedia. MedlinePlus. https://medlineplus.gov/",
+      "Atkinson, M. A., Eisenbarth, G. S., & Michels, A. W. (2014). Type 1 diabetes. The Lancet, 383(9911), 69–82.",
+      "Harvey, R. A., & Ferrier, D. R. (2011). Biochemistry (Lippincott’s Illustrated Reviews). Lippincott Williams & Wilkins."
+    ],
+    "content": "우안의 시각 분해능. 좌우 차이가 크면 단안 질환·굴절이상 또는 신경학적 문제 가능성의 단서.",
+    "category": "definition",
+    "standard_name": "vision_right"
+  },
+  {
+    "id": "6c0eece4-bebf-4835-9b0b-5d79325c3bbe",
+    "title": "청력(좌) - 용어 정의",
+    "domain": null,
+    "source": [
+      "국민건강보험공단. (2024). 국민건강정보데이터 건강검진정보 사용자 매뉴얼. 원본: 국민건강보험공단 / 공공데이터포털.",
+      "Johns Hopkins Medicine. (n.d.). Health. https://www.hopkinsmedicine.org/health",
+      "National Institutes of Health. (n.d.). Medical encyclopedia. MedlinePlus. https://medlineplus.gov/",
+      "Atkinson, M. A., Eisenbarth, G. S., & Michels, A. W. (2014). Type 1 diabetes. The Lancet, 383(9911), 69–82.",
+      "Harvey, R. A., & Ferrier, D. R. (2011). Biochemistry (Lippincott’s Illustrated Reviews). Lippincott Williams & Wilkins."
+    ],
+    "content": "좌측 청각 기능(음향의 기도·골도 전달 및 청신경·중추 처리). 전음성/감각신경성/혼합성 난청의 선별 단서가 됨.",
+    "category": "definition",
+    "standard_name": "hearing_left"
+  },
+  {
+    "id": "c1ad35bf-7193-4340-a92c-054dfd18ab8e",
+    "title": "청력(우) - 용어 정의",
+    "domain": null,
+    "source": [
+      "국민건강보험공단. (2024). 국민건강정보데이터 건강검진정보 사용자 매뉴얼. 원본: 국민건강보험공단 / 공공데이터포털.",
+      "Johns Hopkins Medicine. (n.d.). Health. https://www.hopkinsmedicine.org/health",
+      "National Institutes of Health. (n.d.). Medical encyclopedia. MedlinePlus. https://medlineplus.gov/",
+      "Atkinson, M. A., Eisenbarth, G. S., & Michels, A. W. (2014). Type 1 diabetes. The Lancet, 383(9911), 69–82.",
+      "Harvey, R. A., & Ferrier, D. R. (2011). Biochemistry (Lippincott’s Illustrated Reviews). Lippincott Williams & Wilkins."
+    ],
+    "content": "우측 청각 기능. 일측 난청은 청신경 종양·염증성 질환 등 감별의 단서가 될 수 있음.",
+    "category": "definition",
+    "standard_name": "hearing_right"
+  },
+  {
+    "id": "1911e9c0-f321-47a8-a07d-e871d6eb13a2",
+    "title": "수축기 혈압(SBP) - 용어 정의",
+    "domain": null,
+    "source": [
+      "국민건강보험공단. (2024). 국민건강정보데이터 건강검진정보 사용자 매뉴얼. 원본: 국민건강보험공단 / 공공데이터포털.",
+      "Johns Hopkins Medicine. (n.d.). Health. https://www.hopkinsmedicine.org/health",
+      "National Institutes of Health. (n.d.). Medical encyclopedia. MedlinePlus. https://medlineplus.gov/",
+      "Atkinson, M. A., Eisenbarth, G. S., & Michels, A. W. (2014). Type 1 diabetes. The Lancet, 383(9911), 69–82.",
+      "Harvey, R. A., & Ferrier, D. R. (2011). Biochemistry (Lippincott’s Illustrated Reviews). Lippincott Williams & Wilkins."
+    ],
+    "content": "심실 수축 시 동맥 내부 압력. 대동맥·주요 동맥의 순응도와 말초저항, 심박출량 등 심혈관계 역학을 반영.",
+    "category": "definition",
+    "standard_name": "sbp"
+  },
+  {
+    "id": "a3487d7c-aa9f-4fe7-b089-6901e19712cd",
+    "title": "이완기 혈압(DBP) - 용어 정의",
+    "domain": null,
+    "source": [
+      "국민건강보험공단. (2024). 국민건강정보데이터 건강검진정보 사용자 매뉴얼. 원본: 국민건강보험공단 / 공공데이터포털.",
+      "Johns Hopkins Medicine. (n.d.). Health. https://www.hopkinsmedicine.org/health",
+      "National Institutes of Health. (n.d.). Medical encyclopedia. MedlinePlus. https://medlineplus.gov/",
+      "Atkinson, M. A., Eisenbarth, G. S., & Michels, A. W. (2014). Type 1 diabetes. The Lancet, 383(9911), 69–82.",
+      "Harvey, R. A., & Ferrier, D. R. (2011). Biochemistry (Lippincott’s Illustrated Reviews). Lippincott Williams & Wilkins."
+    ],
+    "content": "심실 이완 시 동맥 내부 압력. 말초혈관 저항과 소동맥·세동맥의 상태를 주로 반영.",
+    "category": "definition",
+    "standard_name": "dbp"
+  },
+  {
+    "id": "e1750712-1fb8-419e-aaf1-bd0e410ba797",
+    "title": "식전혈당(공복혈당) - 용어 정의",
+    "domain": null,
+    "source": [
+      "국민건강보험공단. (2024). 국민건강정보데이터 건강검진정보 사용자 매뉴얼. 원본: 국민건강보험공단 / 공공데이터포털.",
+      "Johns Hopkins Medicine. (n.d.). Health. https://www.hopkinsmedicine.org/health",
+      "National Institutes of Health. (n.d.). Medical encyclopedia. MedlinePlus. https://medlineplus.gov/",
+      "Atkinson, M. A., Eisenbarth, G. S., & Michels, A. W. (2014). Type 1 diabetes. The Lancet, 383(9911), 69–82.",
+      "Harvey, R. A., & Ferrier, D. R. (2011). Biochemistry (Lippincott’s Illustrated Reviews). Lippincott Williams & Wilkins."
+    ],
+    "content": "금식 상태에서의 혈중 포도당 농도. 간의 포도당 생산과 인슐린 분비/민감성의 균형을 나타내며 당대사 이상 평가의 기본 지표.",
+    "category": "definition",
+    "standard_name": "fasting_glucose"
+  },
+  {
+    "id": "c826265d-2c1f-4a9f-a2b2-282af3f95a44",
+    "title": "총 콜레스테롤(TC) - 용어 정의",
+    "domain": null,
+    "source": [
+      "국민건강보험공단. (2024). 국민건강정보데이터 건강검진정보 사용자 매뉴얼. 원본: 국민건강보험공단 / 공공데이터포털.",
+      "Johns Hopkins Medicine. (n.d.). Health. https://www.hopkinsmedicine.org/health",
+      "National Institutes of Health. (n.d.). Medical encyclopedia. MedlinePlus. https://medlineplus.gov/",
+      "Atkinson, M. A., Eisenbarth, G. S., & Michels, A. W. (2014). Type 1 diabetes. The Lancet, 383(9911), 69–82.",
+      "Harvey, R. A., & Ferrier, D. R. (2011). Biochemistry (Lippincott’s Illustrated Reviews). Lippincott Williams & Wilkins."
+    ],
+    "content": "혈장 내 모든 지단백에 포함된 콜레스테롤 총량(LDL·HDL·VLDL 포함). 지질대사의 전반적 상태를 요약하는 지표.",
+    "category": "definition",
+    "standard_name": "chol_total"
+  },
+  {
+    "id": "74f7176b-554e-48d3-ba7b-d666ff7fd6ed",
+    "title": "트리글리세라이드(TG) - 용어 정의",
+    "domain": null,
+    "source": [
+      "국민건강보험공단. (2024). 국민건강정보데이터 건강검진정보 사용자 매뉴얼. 원본: 국민건강보험공단 / 공공데이터포털.",
+      "Johns Hopkins Medicine. (n.d.). Health. https://www.hopkinsmedicine.org/health",
+      "National Institutes of Health. (n.d.). Medical encyclopedia. MedlinePlus. https://medlineplus.gov/",
+      "Atkinson, M. A., Eisenbarth, G. S., & Michels, A. W. (2014). Type 1 diabetes. The Lancet, 383(9911), 69–82.",
+      "Harvey, R. A., & Ferrier, D. R. (2011). Biochemistry (Lippincott’s Illustrated Reviews). Lippincott Williams & Wilkins."
+    ],
+    "content": "혈중 중성지방. 식이성 지방/탄수화물이 간·지방조직에서 합성·저장되는 에너지원으로, VLDL 형태로 운반됨.",
+    "category": "definition",
+    "standard_name": "triglyceride"
+  },
+  {
+    "id": "e0f2921f-a1cc-4360-947e-4ad54041fa81",
+    "title": "HDL 콜레스테롤 - 용어 정의",
+    "domain": null,
+    "source": [
+      "국민건강보험공단. (2024). 국민건강정보데이터 건강검진정보 사용자 매뉴얼. 원본: 국민건강보험공단 / 공공데이터포털.",
+      "Johns Hopkins Medicine. (n.d.). Health. https://www.hopkinsmedicine.org/health",
+      "National Institutes of Health. (n.d.). Medical encyclopedia. MedlinePlus. https://medlineplus.gov/",
+      "Atkinson, M. A., Eisenbarth, G. S., & Michels, A. W. (2014). Type 1 diabetes. The Lancet, 383(9911), 69–82.",
+      "Harvey, R. A., & Ferrier, D. R. (2011). Biochemistry (Lippincott’s Illustrated Reviews). Lippincott Williams & Wilkins."
+    ],
+    "content": "고밀도 지단백이 운반하는 콜레스테롤. 말초 조직에서 간으로 콜레스테롤을 회수(역수송)해 동맥경화 억제에 기여.",
+    "category": "definition",
+    "standard_name": "chol_hdl"
+  },
+  {
+    "id": "6165d2a5-59d1-47d2-b861-32a8d4c676b2",
+    "title": "LDL 콜레스테롤 - 용어 정의",
+    "domain": null,
+    "source": [
+      "국민건강보험공단. (2024). 국민건강정보데이터 건강검진정보 사용자 매뉴얼. 원본: 국민건강보험공단 / 공공데이터포털.",
+      "Johns Hopkins Medicine. (n.d.). Health. https://www.hopkinsmedicine.org/health",
+      "National Institutes of Health. (n.d.). Medical encyclopedia. MedlinePlus. https://medlineplus.gov/",
+      "Atkinson, M. A., Eisenbarth, G. S., & Michels, A. W. (2014). Type 1 diabetes. The Lancet, 383(9911), 69–82.",
+      "Harvey, R. A., & Ferrier, D. R. (2011). Biochemistry (Lippincott’s Illustrated Reviews). Lippincott Williams & Wilkins."
+    ],
+    "content": "저밀도 지단백이 운반하는 콜레스테롤. 동맥벽에 침착되어 죽상경화를 촉진하는 주요 인자.",
+    "category": "definition",
+    "standard_name": "chol_ldl"
+  },
+  {
+    "id": "8b7922df-3f33-4a3f-af00-9e22d68a74f9",
+    "title": "혈색소(Hemoglobin) - 용어 정의",
+    "domain": null,
+    "source": [
+      "국민건강보험공단. (2024). 국민건강정보데이터 건강검진정보 사용자 매뉴얼. 원본: 국민건강보험공단 / 공공데이터포털.",
+      "Johns Hopkins Medicine. (n.d.). Health. https://www.hopkinsmedicine.org/health",
+      "National Institutes of Health. (n.d.). Medical encyclopedia. MedlinePlus. https://medlineplus.gov/",
+      "Atkinson, M. A., Eisenbarth, G. S., & Michels, A. W. (2014). Type 1 diabetes. The Lancet, 383(9911), 69–82.",
+      "Harvey, R. A., & Ferrier, D. R. (2011). Biochemistry (Lippincott’s Illustrated Reviews). Lippincott Williams & Wilkins."
+    ],
+    "content": "적혈구 내 철 함유 단백질로 산소 운반을 담당. 조직 산소공급 능력의 핵심 지표이며, 혈액 점도·산소해리 곡선과 연동.",
+    "category": "definition",
+    "standard_name": "hemoglobin"
+  },
+  {
+    "id": "8b9339f9-7867-464a-817c-d16537c4321c",
+    "title": "요단백(Urine Protein, 정성) - 용어 정의",
+    "domain": null,
+    "source": [
+      "국민건강보험공단. (2024). 국민건강정보데이터 건강검진정보 사용자 매뉴얼. 원본: 국민건강보험공단 / 공공데이터포털.",
+      "Johns Hopkins Medicine. (n.d.). Health. https://www.hopkinsmedicine.org/health",
+      "National Institutes of Health. (n.d.). Medical encyclopedia. MedlinePlus. https://medlineplus.gov/",
+      "Atkinson, M. A., Eisenbarth, G. S., & Michels, A. W. (2014). Type 1 diabetes. The Lancet, 383(9911), 69–82.",
+      "Harvey, R. A., & Ferrier, D. R. (2011). Biochemistry (Lippincott’s Illustrated Reviews). Lippincott Williams & Wilkins."
+    ],
+    "content": "사구체 여과장벽 또는 세뇨관 재흡수 이상, 혹은 일시적 기능변화로 소변에 검출되는 단백질(주로 알부민). 신장 손상의 민감한 단서.",
+    "category": "definition",
+    "standard_name": "urine_protein"
+  },
+  {
+    "id": "117811cf-25ad-42a3-8655-5ace2b81df68",
+    "title": "혈청크레아티닌(Serum Cr) - 용어 정의",
+    "domain": null,
+    "source": [
+      "국민건강보험공단. (2024). 국민건강정보데이터 건강검진정보 사용자 매뉴얼. 원본: 국민건강보험공단 / 공공데이터포털.",
+      "Johns Hopkins Medicine. (n.d.). Health. https://www.hopkinsmedicine.org/health",
+      "National Institutes of Health. (n.d.). Medical encyclopedia. MedlinePlus. https://medlineplus.gov/",
+      "Atkinson, M. A., Eisenbarth, G. S., & Michels, A. W. (2014). Type 1 diabetes. The Lancet, 383(9911), 69–82.",
+      "Harvey, R. A., & Ferrier, D. R. (2011). Biochemistry (Lippincott’s Illustrated Reviews). Lippincott Williams & Wilkins."
+    ],
+    "content": "근육 대사산물 크레아티닌의 혈중 농도. 사구체여과율(GFR)의 대리 지표로 신장 배설 기능을 반영하며 eGFR 계산의 핵심 입력.",
+    "category": "definition",
+    "standard_name": "creatinine"
+  },
+  {
+    "id": "60111daa-205d-4964-b018-3e130c84d97a",
+    "title": "AST(GOT) - 용어 정의",
+    "domain": null,
+    "source": [
+      "국민건강보험공단. (2024). 국민건강정보데이터 건강검진정보 사용자 매뉴얼. 원본: 국민건강보험공단 / 공공데이터포털.",
+      "Johns Hopkins Medicine. (n.d.). Health. https://www.hopkinsmedicine.org/health",
+      "National Institutes of Health. (n.d.). Medical encyclopedia. MedlinePlus. https://medlineplus.gov/",
+      "Atkinson, M. A., Eisenbarth, G. S., & Michels, A. W. (2014). Type 1 diabetes. The Lancet, 383(9911), 69–82.",
+      "Harvey, R. A., & Ferrier, D. R. (2011). Biochemistry (Lippincott’s Illustrated Reviews). Lippincott Williams & Wilkins."
+    ],
+    "content": "간·심근·골격근·신장 등 세포 내 존재하는 아미노기 전달효소. 세포 손상 시 혈중으로 유리되어 상승하는 조직 비특이적 세포 손상 표지.",
+    "category": "definition",
+    "standard_name": "ast"
+  },
+  {
+    "id": "9786a9ab-c2b1-4457-afa9-878ad931ee15",
+    "title": "ALT(GPT) - 용어 정의",
+    "domain": null,
+    "source": [
+      "국민건강보험공단. (2024). 국민건강정보데이터 건강검진정보 사용자 매뉴얼. 원본: 국민건강보험공단 / 공공데이터포털.",
+      "Johns Hopkins Medicine. (n.d.). Health. https://www.hopkinsmedicine.org/health",
+      "National Institutes of Health. (n.d.). Medical encyclopedia. MedlinePlus. https://medlineplus.gov/",
+      "Atkinson, M. A., Eisenbarth, G. S., & Michels, A. W. (2014). Type 1 diabetes. The Lancet, 383(9911), 69–82.",
+      "Harvey, R. A., & Ferrier, D. R. (2011). Biochemistry (Lippincott’s Illustrated Reviews). Lippincott Williams & Wilkins."
+    ],
+    "content": "간세포질에 상대적으로 특이적인 아미노기 전달효소. 간세포 손상의 민감한 표지로 AST와 함께 간 손상 양상 파악에 사용.",
+    "category": "definition",
+    "standard_name": "alt"
+  },
+  {
+    "id": "905c1e94-5636-47a6-86bf-5eefda1822ac",
+    "title": "γ-GTP(GGT) - 용어 정의",
+    "domain": null,
+    "source": [
+      "국민건강보험공단. (2024). 국민건강정보데이터 건강검진정보 사용자 매뉴얼. 원본: 국민건강보험공단 / 공공데이터포털.",
+      "Johns Hopkins Medicine. (n.d.). Health. https://www.hopkinsmedicine.org/health",
+      "National Institutes of Health. (n.d.). Medical encyclopedia. MedlinePlus. https://medlineplus.gov/",
+      "Atkinson, M. A., Eisenbarth, G. S., & Michels, A. W. (2014). Type 1 diabetes. The Lancet, 383(9911), 69–82.",
+      "Harvey, R. A., & Ferrier, D. R. (2011). Biochemistry (Lippincott’s Illustrated Reviews). Lippincott Williams & Wilkins."
+    ],
+    "content": "간·담도계·췌장 등에 존재하는 효소로, 담즙정체·약물·알코올 노출 등에서 민감하게 반응하는 담도/간 대사 표지.",
+    "category": "definition",
+    "standard_name": "ggtp"
+  },
+  {
+    "id": "7eb56598-b86a-4fdf-9558-487149084e99",
+    "title": "흡연상태 - 용어 정의",
+    "domain": null,
+    "source": [
+      "국민건강보험공단. (2024). 국민건강정보데이터 건강검진정보 사용자 매뉴얼. 원본: 국민건강보험공단 / 공공데이터포털.",
+      "Johns Hopkins Medicine. (n.d.). Health. https://www.hopkinsmedicine.org/health",
+      "National Institutes of Health. (n.d.). Medical encyclopedia. MedlinePlus. https://medlineplus.gov/",
+      "Atkinson, M. A., Eisenbarth, G. S., & Michels, A. W. (2014). Type 1 diabetes. The Lancet, 383(9911), 69–82.",
+      "Harvey, R. A., & Ferrier, D. R. (2011). Biochemistry (Lippincott’s Illustrated Reviews). Lippincott Williams & Wilkins."
+    ],
+    "content": "니코틴·산화물질 노출에 따른 혈관수축·산화스트레스·전신 염증 촉발 상태의 지표(행태 변수). 동맥경화·암·호흡기 질환 위험 증가와 직결.",
+    "category": "definition",
+    "standard_name": "smoking_status"
+  },
+  {
+    "id": "c91ea05c-c973-4ccb-ab06-091adb2b659a",
+    "title": "음주여부 - 용어 정의",
+    "domain": null,
+    "source": [
+      "국민건강보험공단. (2024). 국민건강정보데이터 건강검진정보 사용자 매뉴얼. 원본: 국민건강보험공단 / 공공데이터포털.",
+      "Johns Hopkins Medicine. (n.d.). Health. https://www.hopkinsmedicine.org/health",
+      "National Institutes of Health. (n.d.). Medical encyclopedia. MedlinePlus. https://medlineplus.gov/",
+      "Atkinson, M. A., Eisenbarth, G. S., & Michels, A. W. (2014). Type 1 diabetes. The Lancet, 383(9911), 69–82.",
+      "Harvey, R. A., & Ferrier, D. R. (2011). Biochemistry (Lippincott’s Illustrated Reviews). Lippincott Williams & Wilkins."
+    ],
+    "content": "에탄올 섭취 행태의 지표(행태 변수). 간 대사·지질대사·혈압·심장리듬 등에 광범위한 생리적 영향을 미침.",
+    "category": "definition",
+    "standard_name": "alcohol_status"
+  },
+  {
+    "id": "18afe5b6-0626-424d-b23c-5a09d5191175",
+    "title": "구강검진수검여부 - 용어 정의",
+    "domain": null,
+    "source": [
+      "국민건강보험공단. (2024). 국민건강정보데이터 건강검진정보 사용자 매뉴얼. 원본: 국민건강보험공단 / 공공데이터포털.",
+      "Johns Hopkins Medicine. (n.d.). Health. https://www.hopkinsmedicine.org/health",
+      "National Institutes of Health. (n.d.). Medical encyclopedia. MedlinePlus. https://medlineplus.gov/",
+      "Atkinson, M. A., Eisenbarth, G. S., & Michels, A. W. (2014). Type 1 diabetes. The Lancet, 383(9911), 69–82.",
+      "Harvey, R. A., & Ferrier, D. R. (2011). Biochemistry (Lippincott’s Illustrated Reviews). Lippincott Williams & Wilkins."
+    ],
+    "content": "해당 연도 구강 건강상태 선별 여부(행태/이용 변수). 구강질환의 조기 발견 및 전신 염증 관리에 기여.",
+    "category": "definition",
+    "standard_name": "oral_exam"
+  },
+  {
+    "id": "942b1360-c5e7-4738-8a1f-5751ffb1635d",
+    "title": "치아우식증 유무 - 용어 정의",
+    "domain": null,
+    "source": [
+      "국민건강보험공단. (2024). 국민건강정보데이터 건강검진정보 사용자 매뉴얼. 원본: 국민건강보험공단 / 공공데이터포털.",
+      "Johns Hopkins Medicine. (n.d.). Health. https://www.hopkinsmedicine.org/health",
+      "National Institutes of Health. (n.d.). Medical encyclopedia. MedlinePlus. https://medlineplus.gov/",
+      "Atkinson, M. A., Eisenbarth, G. S., & Michels, A. W. (2014). Type 1 diabetes. The Lancet, 383(9911), 69–82.",
+      "Harvey, R. A., & Ferrier, D. R. (2011). Biochemistry (Lippincott’s Illustrated Reviews). Lippincott Williams & Wilkins."
+    ],
+    "content": "세균성 산 생성으로 인한 법랑질·상아질 탈회와 조직 파괴 상태(충치). 통증·감염·영양장애의 원인이 됨.",
+    "category": "definition",
+    "standard_name": "dental_caries"
+  },
+  {
+    "id": "ca4043df-446e-4ecc-9226-1c5401b9a05d",
+    "title": "결손치 유무 - 용어 정의",
+    "domain": null,
+    "source": [
+      "국민건강보험공단. (2024). 국민건강정보데이터 건강검진정보 사용자 매뉴얼. 원본: 국민건강보험공단 / 공공데이터포털.",
+      "Johns Hopkins Medicine. (n.d.). Health. https://www.hopkinsmedicine.org/health",
+      "National Institutes of Health. (n.d.). Medical encyclopedia. MedlinePlus. https://medlineplus.gov/",
+      "Atkinson, M. A., Eisenbarth, G. S., & Michels, A. W. (2014). Type 1 diabetes. The Lancet, 383(9911), 69–82.",
+      "Harvey, R. A., & Ferrier, D. R. (2011). Biochemistry (Lippincott’s Illustrated Reviews). Lippincott Williams & Wilkins."
+    ],
+    "content": "영구치의 상실 상태(우식·치주질환·외상·선천적 결손 등). 저작·발음·영양·삶의 질에 영향.",
+    "category": "definition",
+    "standard_name": "missing_teeth"
+  },
+  {
+    "id": "7f702d81-8473-4e49-a3f7-c1b7a3d03da2",
+    "title": "치아마모증 유무 - 용어 정의",
+    "domain": null,
+    "source": [
+      "국민건강보험공단. (2024). 국민건강정보데이터 건강검진정보 사용자 매뉴얼. 원본: 국민건강보험공단 / 공공데이터포털.",
+      "Johns Hopkins Medicine. (n.d.). Health. https://www.hopkinsmedicine.org/health",
+      "National Institutes of Health. (n.d.). Medical encyclopedia. MedlinePlus. https://medlineplus.gov/",
+      "Atkinson, M. A., Eisenbarth, G. S., & Michels, A. W. (2014). Type 1 diabetes. The Lancet, 383(9911), 69–82.",
+      "Harvey, R. A., & Ferrier, D. R. (2011). Biochemistry (Lippincott’s Illustrated Reviews). Lippincott Williams & Wilkins."
+    ],
+    "content": "비우식성 치질 소실로서 마찰·부식·마모에 의해 치질이 점진적으로 얇아진 상태. 과민증·교합 문제의 기초가 됨.",
+    "category": "definition",
+    "standard_name": "tooth_wear"
+  },
+  {
+    "id": "3acd0136-b97d-4ae3-9cec-7e1a386e8e45",
+    "title": "제3대구치(사랑니)이상 - 용어 정의",
+    "domain": null,
+    "source": [
+      "국민건강보험공단. (2024). 국민건강정보데이터 건강검진정보 사용자 매뉴얼. 원본: 국민건강보험공단 / 공공데이터포털.",
+      "Johns Hopkins Medicine. (n.d.). Health. https://www.hopkinsmedicine.org/health",
+      "National Institutes of Health. (n.d.). Medical encyclopedia. MedlinePlus. https://medlineplus.gov/",
+      "Atkinson, M. A., Eisenbarth, G. S., & Michels, A. W. (2014). Type 1 diabetes. The Lancet, 383(9911), 69–82.",
+      "Harvey, R. A., & Ferrier, D. R. (2011). Biochemistry (Lippincott’s Illustrated Reviews). Lippincott Williams & Wilkins."
+    ],
+    "content": "사랑니의 매복·부정위치·주위염·낭종 형성 등 병적 상태. 인접 치아 손상과 반복 염증의 원인이 됨.",
+    "category": "definition",
+    "standard_name": "third_molar_abnormality"
+  },
+  {
+    "id": "90f7fed2-41d9-4f7d-8b63-1bcdce6ae751",
+    "title": "치석 - 용어 정의",
+    "domain": null,
+    "source": [
+      "국민건강보험공단. (2024). 국민건강정보데이터 건강검진정보 사용자 매뉴얼. 원본: 국민건강보험공단 / 공공데이터포털.",
+      "Johns Hopkins Medicine. (n.d.). Health. https://www.hopkinsmedicine.org/health",
+      "National Institutes of Health. (n.d.). Medical encyclopedia. MedlinePlus. https://medlineplus.gov/",
+      "Atkinson, M. A., Eisenbarth, G. S., & Michels, A. W. (2014). Type 1 diabetes. The Lancet, 383(9911), 69–82.",
+      "Harvey, R. A., & Ferrier, D. R. (2011). Biochemistry (Lippincott’s Illustrated Reviews). Lippincott Williams & Wilkins."
+    ],
+    "content": "치태의 무기질화로 형성된 경질 침착물. 치은염·치주염의 주요 병인으로 치주조직 파괴를 촉진.",
+    "category": "definition",
+    "standard_name": "calculus"
+  },
+  {
+    "id": "d2063439-451e-4fc1-901d-d8882b713372",
+    "title": "BMI(체질량지수) - 용어 정의",
+    "domain": null,
+    "source": [
+      "국민건강보험공단. (2024). 국민건강정보데이터 건강검진정보 사용자 매뉴얼. 원본: 국민건강보험공단 / 공공데이터포털.",
+      "Johns Hopkins Medicine. (n.d.). Health. https://www.hopkinsmedicine.org/health",
+      "National Institutes of Health. (n.d.). Medical encyclopedia. MedlinePlus. https://medlineplus.gov/",
+      "Atkinson, M. A., Eisenbarth, G. S., & Michels, A. W. (2014). Type 1 diabetes. The Lancet, 383(9911), 69–82.",
+      "Harvey, R. A., & Ferrier, D. R. (2011). Biochemistry (Lippincott’s Illustrated Reviews). Lippincott Williams & Wilkins."
+    ],
+    "content": "체중(kg)을 신장(m)^2으로 나눈 값으로 전신 비만도를 나타내는 지표. 대사성 질환(당뇨·고혈압·지방간)과 심혈관 위험과 연동되나 근육량·노화에 따른 한계가 있어 허리둘레와 병행 평가가 권장됨.",
+    "category": "definition",
+    "standard_name": "bmi"
+  },
+  {
+    "id": "335fb9b9-ce0d-4606-b928-b27eec0c131f",
+    "title": "복부비만 - 용어 정의",
+    "domain": null,
+    "source": [
+      "국민건강보험공단. (2024). 국민건강정보데이터 건강검진정보 사용자 매뉴얼. 원본: 국민건강보험공단 / 공공데이터포털.",
+      "Johns Hopkins Medicine. (n.d.). Health. https://www.hopkinsmedicine.org/health",
+      "National Institutes of Health. (n.d.). Medical encyclopedia. MedlinePlus. https://medlineplus.gov/",
+      "Atkinson, M. A., Eisenbarth, G. S., & Michels, A. W. (2014). Type 1 diabetes. The Lancet, 383(9911), 69–82.",
+      "Harvey, R. A., & Ferrier, D. R. (2011). Biochemistry (Lippincott’s Illustrated Reviews). Lippincott Williams & Wilkins."
+    ],
+    "content": "내장지방 축적을 의미하는 임상 개념으로 허리둘레로 간편 평가. 인슐린 저항성·지방간·고혈압과 강하게 연관되며 대사증후군의 핵심 구성요소.",
+    "category": "definition",
+    "standard_name": "abdominal_obesity"
+  },
+  {
+    "id": "3350c4c8-76aa-444a-a38d-a92ab25bbc4b",
+    "title": "대사증후군 - 용어 정의",
+    "domain": null,
+    "source": [
+      "국민건강보험공단. (2024). 국민건강정보데이터 건강검진정보 사용자 매뉴얼. 원본: 국민건강보험공단 / 공공데이터포털.",
+      "Johns Hopkins Medicine. (n.d.). Health. https://www.hopkinsmedicine.org/health",
+      "National Institutes of Health. (n.d.). Medical encyclopedia. MedlinePlus. https://medlineplus.gov/",
+      "Atkinson, M. A., Eisenbarth, G. S., & Michels, A. W. (2014). Type 1 diabetes. The Lancet, 383(9911), 69–82.",
+      "Harvey, R. A., & Ferrier, D. R. (2011). Biochemistry (Lippincott’s Illustrated Reviews). Lippincott Williams & Wilkins."
+    ],
+    "content": "복부비만·고중성지방·저HDL·고혈압·고혈당 중 여러 요소가 동시 존재하는 대사 이상군. 죽상경화성 심혈관질환 및 제2형 당뇨 발생 위험을 구조적으로 높이는 상태.",
+    "category": "definition",
+    "standard_name": "metabolic_syndrome"
+  },
+  {
+    "id": "cda186ab-d19c-4929-81e0-5afe25d78f89",
+    "title": "eGFR - 용어 정의",
+    "domain": null,
+    "source": [
+      "국민건강보험공단. (2024). 국민건강정보데이터 건강검진정보 사용자 매뉴얼. 원본: 국민건강보험공단 / 공공데이터포털.",
+      "Johns Hopkins Medicine. (n.d.). Health. https://www.hopkinsmedicine.org/health",
+      "National Institutes of Health. (n.d.). Medical encyclopedia. MedlinePlus. https://medlineplus.gov/",
+      "Atkinson, M. A., Eisenbarth, G. S., & Michels, A. W. (2014). Type 1 diabetes. The Lancet, 383(9911), 69–82.",
+      "Harvey, R. A., & Ferrier, D. R. (2011). Biochemistry (Lippincott’s Illustrated Reviews). Lippincott Williams & Wilkins."
+    ],
+    "content": "혈청 크레아티닌과 연령·성별(±인종)을 이용한 수식(예: CKD-EPI)으로 추정한 신장 여과능. 만성신장질환의 병기 구분과 예후 평가의 표준 지표.",
+    "category": "definition",
+    "standard_name": "egfr"
+  },
+  {
+    "id": "9f9cde8f-05a6-426b-b3d6-66f75a3bce1f",
+    "title": "LFT - 용어 정의",
+    "domain": null,
+    "source": [
+      "국민건강보험공단. (2024). 국민건강정보데이터 건강검진정보 사용자 매뉴얼. 원본: 국민건강보험공단 / 공공데이터포털.",
+      "Johns Hopkins Medicine. (n.d.). Health. https://www.hopkinsmedicine.org/health",
+      "National Institutes of Health. (n.d.). Medical encyclopedia. MedlinePlus. https://medlineplus.gov/",
+      "Atkinson, M. A., Eisenbarth, G. S., & Michels, A. W. (2014). Type 1 diabetes. The Lancet, 383(9911), 69–82.",
+      "Harvey, R. A., & Ferrier, D. R. (2011). Biochemistry (Lippincott’s Illustrated Reviews). Lippincott Williams & Wilkins."
+    ],
+    "content": "AST·ALT·γ-GTP(±ALP·빌리루빈 등)를 묶어 간세포 손상형 vs 담즙정체형 패턴을 파악하는 기능 검사항목군. 단일 수치보다 패턴과 경향(지속성)이 임상적으로 중요.",
+    "category": "definition",
+    "standard_name": "lft_panel"
+  }
+]

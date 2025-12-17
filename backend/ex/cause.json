@@ -1,0 +1,342 @@
+[
+  {
+    "id": "47236da4-ef10-4231-b8b4-6a5fa19ed539",
+    "title": "공복혈당 - 원인 및 연관 해설",
+    "domain": null,
+    "source": [
+      "질병관리청. (n.d.). 국가건강정보포털 – 건강정보. https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoMain.do",
+      "세브란스병원. (n.d.). 건강정보. https://gs.severance.healthcare/health/index.do",
+      "Tonetti, M. S., Jepsen, S., Jin, L., & Otomo-Corgel, J. (2017). Periodontal disease and systemic health. Journal of Clinical Periodontology, 44(S18), S22–S29.",
+      "DeFronzo, R. A., Ferrannini, E., Groop, L., et al. (2015). Type 2 diabetes mellitus. Nature Reviews Disease Primers, 1, 15019.",
+      "American Diabetes Association. (2022). Standards of medical care in diabetes—2022 abridged for primary care providers. Clinical Diabetes, 40(1), 10–38.",
+      "Rehm, J., Gmel Sr, G. E., Gmel, G., Hasan, O. S., Imtiaz, S., Popova, S., ... & Shuper, P. A. (2017). Alcohol use and disease burden. Addiction, 112(6), 968–1001.",
+      "Matsushita, K., Coresh, J., Sang, Y., Chalmers, J., Fox, C., Guallar, E., ... & Ärnlöv, J. (2015). Estimated glomerular filtration rate and albuminuria for prediction of cardiovascular outcomes. The Lancet Diabetes & Endocrinology, 3(7), 514–525.",
+      "Skyler, J. S., Bakris, G. L., Bonifacio, E., Darsow, T., Eckel, R. H., Groop, L., ... & Ratner, R. E. (2017). Differentiation of diabetes by pathophysiology, natural history, and prognosis. Diabetes, 66(2), 241–255.",
+      "Ference, B. A., Ginsberg, H. N., Graham, I., Ray, K. K., Packard, C. J., Bruckert, E., ... & Catapano, A. L. (2017). Low-density lipoproteins cause atherosclerotic cardiovascular disease. European Heart Journal, 38(32), 2459–2472.",
+      "Hyeon, C. K., Chung, M. N., Sun, H. J., Kwang, H. H., Oh, D. K., & Suh, I. (2004). Normal serum aminotransferase concentration and risk of mortality from liver diseases. BMJ, 328(7446), 983."
+    ],
+    "content": "[생리적 원인]\n인슐린 분비 저하, 간 포도당 생성 증가, 인슐린 저항성\n[생활습관 요인]\n과식·야식, 당분 과다 섭취, 운동 부족, 비만, 스트레스\n[질환 연관성]\n당뇨병, 대사증후군, 갑상선기능저하증, 쿠싱증후군\n[약물 영향]\n스테로이드, 이뇨제, 베타차단제, 경구피임약",
+    "category": "cause",
+    "standard_name": "fasting_glucose"
+  },
+  {
+    "id": "78922383-eb38-440b-a685-f2f7baa6e94b",
+    "title": "총콜레스테롤 - 원인 및 연관 해설",
+    "domain": null,
+    "source": [
+      "질병관리청. (n.d.). 국가건강정보포털 – 건강정보. https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoMain.do",
+      "세브란스병원. (n.d.). 건강정보. https://gs.severance.healthcare/health/index.do",
+      "Tonetti, M. S., Jepsen, S., Jin, L., & Otomo-Corgel, J. (2017). Periodontal disease and systemic health. Journal of Clinical Periodontology, 44(S18), S22–S29.",
+      "DeFronzo, R. A., Ferrannini, E., Groop, L., et al. (2015). Type 2 diabetes mellitus. Nature Reviews Disease Primers, 1, 15019.",
+      "American Diabetes Association. (2022). Standards of medical care in diabetes—2022 abridged for primary care providers. Clinical Diabetes, 40(1), 10–38.",
+      "Rehm, J., Gmel Sr, G. E., Gmel, G., Hasan, O. S., Imtiaz, S., Popova, S., ... & Shuper, P. A. (2017). Alcohol use and disease burden. Addiction, 112(6), 968–1001.",
+      "Matsushita, K., Coresh, J., Sang, Y., Chalmers, J., Fox, C., Guallar, E., ... & Ärnlöv, J. (2015). Estimated glomerular filtration rate and albuminuria for prediction of cardiovascular outcomes. The Lancet Diabetes & Endocrinology, 3(7), 514–525.",
+      "Skyler, J. S., Bakris, G. L., Bonifacio, E., Darsow, T., Eckel, R. H., Groop, L., ... & Ratner, R. E. (2017). Differentiation of diabetes by pathophysiology, natural history, and prognosis. Diabetes, 66(2), 241–255.",
+      "Ference, B. A., Ginsberg, H. N., Graham, I., Ray, K. K., Packard, C. J., Bruckert, E., ... & Catapano, A. L. (2017). Low-density lipoproteins cause atherosclerotic cardiovascular disease. European Heart Journal, 38(32), 2459–2472.",
+      "Hyeon, C. K., Chung, M. N., Sun, H. J., Kwang, H. H., Oh, D. K., & Suh, I. (2004). Normal serum aminotransferase concentration and risk of mortality from liver diseases. BMJ, 328(7446), 983."
+    ],
+    "content": "[생리적 원인]\n간의 콜레스테롤 합성 증가, 지질대사 불균형\n[생활습관 요인]\n고지방식, 육류·유제품 과다, 운동 부족, 흡연\n[질환 연관성]\n동맥경화증, 고지혈증, 관상동맥질환\n[약물 영향]\n스타틴 중단, 티아지드계 이뇨제, 베타차단제",
+    "category": "cause",
+    "standard_name": "chol_total"
+  },
+  {
+    "id": "c51fd8ed-a225-44a7-b07e-75c9b107c581",
+    "title": "LDL 콜레스테롤 - 원인 및 연관 해설",
+    "domain": null,
+    "source": [
+      "질병관리청. (n.d.). 국가건강정보포털 – 건강정보. https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoMain.do",
+      "세브란스병원. (n.d.). 건강정보. https://gs.severance.healthcare/health/index.do",
+      "Tonetti, M. S., Jepsen, S., Jin, L., & Otomo-Corgel, J. (2017). Periodontal disease and systemic health. Journal of Clinical Periodontology, 44(S18), S22–S29.",
+      "DeFronzo, R. A., Ferrannini, E., Groop, L., et al. (2015). Type 2 diabetes mellitus. Nature Reviews Disease Primers, 1, 15019.",
+      "American Diabetes Association. (2022). Standards of medical care in diabetes—2022 abridged for primary care providers. Clinical Diabetes, 40(1), 10–38.",
+      "Rehm, J., Gmel Sr, G. E., Gmel, G., Hasan, O. S., Imtiaz, S., Popova, S., ... & Shuper, P. A. (2017). Alcohol use and disease burden. Addiction, 112(6), 968–1001.",
+      "Matsushita, K., Coresh, J., Sang, Y., Chalmers, J., Fox, C., Guallar, E., ... & Ärnlöv, J. (2015). Estimated glomerular filtration rate and albuminuria for prediction of cardiovascular outcomes. The Lancet Diabetes & Endocrinology, 3(7), 514–525.",
+      "Skyler, J. S., Bakris, G. L., Bonifacio, E., Darsow, T., Eckel, R. H., Groop, L., ... & Ratner, R. E. (2017). Differentiation of diabetes by pathophysiology, natural history, and prognosis. Diabetes, 66(2), 241–255.",
+      "Ference, B. A., Ginsberg, H. N., Graham, I., Ray, K. K., Packard, C. J., Bruckert, E., ... & Catapano, A. L. (2017). Low-density lipoproteins cause atherosclerotic cardiovascular disease. European Heart Journal, 38(32), 2459–2472.",
+      "Hyeon, C. K., Chung, M. N., Sun, H. J., Kwang, H. H., Oh, D. K., & Suh, I. (2004). Normal serum aminotransferase concentration and risk of mortality from liver diseases. BMJ, 328(7446), 983."
+    ],
+    "content": "[생리적 원인]\nLDL 생성 증가, LDL 수용체 기능 저하\n[생활습관 요인]\n포화지방·트랜스지방 섭취, 스트레스, 체중 증가\n[질환 연관성]\n죽상동맥경화증, 심근경색, 뇌졸중\n[약물 영향]\n고용량 스테로이드, 이뇨제, 사이클로스포린",
+    "category": "cause",
+    "standard_name": "chol_ldl"
+  },
+  {
+    "id": "7d2605aa-a7e8-41fb-99d8-87dc17e24402",
+    "title": "HDL 콜레스테롤 - 원인 및 연관 해설",
+    "domain": null,
+    "source": [
+      "질병관리청. (n.d.). 국가건강정보포털 – 건강정보. https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoMain.do",
+      "세브란스병원. (n.d.). 건강정보. https://gs.severance.healthcare/health/index.do",
+      "Tonetti, M. S., Jepsen, S., Jin, L., & Otomo-Corgel, J. (2017). Periodontal disease and systemic health. Journal of Clinical Periodontology, 44(S18), S22–S29.",
+      "DeFronzo, R. A., Ferrannini, E., Groop, L., et al. (2015). Type 2 diabetes mellitus. Nature Reviews Disease Primers, 1, 15019.",
+      "American Diabetes Association. (2022). Standards of medical care in diabetes—2022 abridged for primary care providers. Clinical Diabetes, 40(1), 10–38.",
+      "Rehm, J., Gmel Sr, G. E., Gmel, G., Hasan, O. S., Imtiaz, S., Popova, S., ... & Shuper, P. A. (2017). Alcohol use and disease burden. Addiction, 112(6), 968–1001.",
+      "Matsushita, K., Coresh, J., Sang, Y., Chalmers, J., Fox, C., Guallar, E., ... & Ärnlöv, J. (2015). Estimated glomerular filtration rate and albuminuria for prediction of cardiovascular outcomes. The Lancet Diabetes & Endocrinology, 3(7), 514–525.",
+      "Skyler, J. S., Bakris, G. L., Bonifacio, E., Darsow, T., Eckel, R. H., Groop, L., ... & Ratner, R. E. (2017). Differentiation of diabetes by pathophysiology, natural history, and prognosis. Diabetes, 66(2), 241–255.",
+      "Ference, B. A., Ginsberg, H. N., Graham, I., Ray, K. K., Packard, C. J., Bruckert, E., ... & Catapano, A. L. (2017). Low-density lipoproteins cause atherosclerotic cardiovascular disease. European Heart Journal, 38(32), 2459–2472.",
+      "Hyeon, C. K., Chung, M. N., Sun, H. J., Kwang, H. H., Oh, D. K., & Suh, I. (2004). Normal serum aminotransferase concentration and risk of mortality from liver diseases. BMJ, 328(7446), 983."
+    ],
+    "content": "[생리적 원인]\n간 내 합성 저하, 과도한 중성지방 증가\n[생활습관 요인]\n운동 부족, 흡연, 과음, 포화지방 섭취\n[질환 연관성]\n저HDL혈증, 대사증후군, 심혈관질환 위험 증가\n[약물 영향]\n베타차단제, 합성안드로겐, 프루세미드",
+    "category": "cause",
+    "standard_name": "chol_hdl"
+  },
+  {
+    "id": "bff6b98a-a023-4da4-8a5c-53ba2eb0c53b",
+    "title": "트리글리세라이드 - 원인 및 연관 해설",
+    "domain": null,
+    "source": [
+      "질병관리청. (n.d.). 국가건강정보포털 – 건강정보. https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoMain.do",
+      "세브란스병원. (n.d.). 건강정보. https://gs.severance.healthcare/health/index.do",
+      "Tonetti, M. S., Jepsen, S., Jin, L., & Otomo-Corgel, J. (2017). Periodontal disease and systemic health. Journal of Clinical Periodontology, 44(S18), S22–S29.",
+      "DeFronzo, R. A., Ferrannini, E., Groop, L., et al. (2015). Type 2 diabetes mellitus. Nature Reviews Disease Primers, 1, 15019.",
+      "American Diabetes Association. (2022). Standards of medical care in diabetes—2022 abridged for primary care providers. Clinical Diabetes, 40(1), 10–38.",
+      "Rehm, J., Gmel Sr, G. E., Gmel, G., Hasan, O. S., Imtiaz, S., Popova, S., ... & Shuper, P. A. (2017). Alcohol use and disease burden. Addiction, 112(6), 968–1001.",
+      "Matsushita, K., Coresh, J., Sang, Y., Chalmers, J., Fox, C., Guallar, E., ... & Ärnlöv, J. (2015). Estimated glomerular filtration rate and albuminuria for prediction of cardiovascular outcomes. The Lancet Diabetes & Endocrinology, 3(7), 514–525.",
+      "Skyler, J. S., Bakris, G. L., Bonifacio, E., Darsow, T., Eckel, R. H., Groop, L., ... & Ratner, R. E. (2017). Differentiation of diabetes by pathophysiology, natural history, and prognosis. Diabetes, 66(2), 241–255.",
+      "Ference, B. A., Ginsberg, H. N., Graham, I., Ray, K. K., Packard, C. J., Bruckert, E., ... & Catapano, A. L. (2017). Low-density lipoproteins cause atherosclerotic cardiovascular disease. European Heart Journal, 38(32), 2459–2472.",
+      "Hyeon, C. K., Chung, M. N., Sun, H. J., Kwang, H. H., Oh, D. K., & Suh, I. (2004). Normal serum aminotransferase concentration and risk of mortality from liver diseases. BMJ, 328(7446), 983."
+    ],
+    "content": "[생리적 원인]\n간 내 중성지방 합성 증가, VLDL 분비 증가\n[생활습관 요인]\n탄수화물 과다, 음주, 불규칙 식사, 운동 부족\n[질환 연관성]\n고중성지방혈증, 지방간, 췌장염\n[약물 영향]\n알코올, 에스트로겐, 스테로이드, 티아지드계",
+    "category": "cause",
+    "standard_name": "triglyceride"
+  },
+  {
+    "id": "d3403bfe-cf69-4891-bc7f-ab60278e4ca1",
+    "title": "혈색소 - 원인 및 연관 해설",
+    "domain": null,
+    "source": [
+      "질병관리청. (n.d.). 국가건강정보포털 – 건강정보. https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoMain.do",
+      "세브란스병원. (n.d.). 건강정보. https://gs.severance.healthcare/health/index.do",
+      "Tonetti, M. S., Jepsen, S., Jin, L., & Otomo-Corgel, J. (2017). Periodontal disease and systemic health. Journal of Clinical Periodontology, 44(S18), S22–S29.",
+      "DeFronzo, R. A., Ferrannini, E., Groop, L., et al. (2015). Type 2 diabetes mellitus. Nature Reviews Disease Primers, 1, 15019.",
+      "American Diabetes Association. (2022). Standards of medical care in diabetes—2022 abridged for primary care providers. Clinical Diabetes, 40(1), 10–38.",
+      "Rehm, J., Gmel Sr, G. E., Gmel, G., Hasan, O. S., Imtiaz, S., Popova, S., ... & Shuper, P. A. (2017). Alcohol use and disease burden. Addiction, 112(6), 968–1001.",
+      "Matsushita, K., Coresh, J., Sang, Y., Chalmers, J., Fox, C., Guallar, E., ... & Ärnlöv, J. (2015). Estimated glomerular filtration rate and albuminuria for prediction of cardiovascular outcomes. The Lancet Diabetes & Endocrinology, 3(7), 514–525.",
+      "Skyler, J. S., Bakris, G. L., Bonifacio, E., Darsow, T., Eckel, R. H., Groop, L., ... & Ratner, R. E. (2017). Differentiation of diabetes by pathophysiology, natural history, and prognosis. Diabetes, 66(2), 241–255.",
+      "Ference, B. A., Ginsberg, H. N., Graham, I., Ray, K. K., Packard, C. J., Bruckert, E., ... & Catapano, A. L. (2017). Low-density lipoproteins cause atherosclerotic cardiovascular disease. European Heart Journal, 38(32), 2459–2472.",
+      "Hyeon, C. K., Chung, M. N., Sun, H. J., Kwang, H. H., Oh, D. K., & Suh, I. (2004). Normal serum aminotransferase concentration and risk of mortality from liver diseases. BMJ, 328(7446), 983."
+    ],
+    "content": "[생리적 원인]\n적혈구 수·혈장량 변화, 산소운반능 조절\n[생활습관 요인]\n흡연, 탈수, 고산지대 체류\n[질환 연관성]\n빈혈(철결핍·만성질환·골수질환), 다혈증\n[약물 영향]\n철분제, 에리스로포이에틴, 항암제, NSAID",
+    "category": "cause",
+    "standard_name": "hemoglobin"
+  },
+  {
+    "id": "df16ed00-dad6-4219-8c55-63b6b5654544",
+    "title": "요단백 - 원인 및 연관 해설",
+    "domain": null,
+    "source": [
+      "질병관리청. (n.d.). 국가건강정보포털 – 건강정보. https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoMain.do",
+      "세브란스병원. (n.d.). 건강정보. https://gs.severance.healthcare/health/index.do",
+      "Tonetti, M. S., Jepsen, S., Jin, L., & Otomo-Corgel, J. (2017). Periodontal disease and systemic health. Journal of Clinical Periodontology, 44(S18), S22–S29.",
+      "DeFronzo, R. A., Ferrannini, E., Groop, L., et al. (2015). Type 2 diabetes mellitus. Nature Reviews Disease Primers, 1, 15019.",
+      "American Diabetes Association. (2022). Standards of medical care in diabetes—2022 abridged for primary care providers. Clinical Diabetes, 40(1), 10–38.",
+      "Rehm, J., Gmel Sr, G. E., Gmel, G., Hasan, O. S., Imtiaz, S., Popova, S., ... & Shuper, P. A. (2017). Alcohol use and disease burden. Addiction, 112(6), 968–1001.",
+      "Matsushita, K., Coresh, J., Sang, Y., Chalmers, J., Fox, C., Guallar, E., ... & Ärnlöv, J. (2015). Estimated glomerular filtration rate and albuminuria for prediction of cardiovascular outcomes. The Lancet Diabetes & Endocrinology, 3(7), 514–525.",
+      "Skyler, J. S., Bakris, G. L., Bonifacio, E., Darsow, T., Eckel, R. H., Groop, L., ... & Ratner, R. E. (2017). Differentiation of diabetes by pathophysiology, natural history, and prognosis. Diabetes, 66(2), 241–255.",
+      "Ference, B. A., Ginsberg, H. N., Graham, I., Ray, K. K., Packard, C. J., Bruckert, E., ... & Catapano, A. L. (2017). Low-density lipoproteins cause atherosclerotic cardiovascular disease. European Heart Journal, 38(32), 2459–2472.",
+      "Hyeon, C. K., Chung, M. N., Sun, H. J., Kwang, H. H., Oh, D. K., & Suh, I. (2004). Normal serum aminotransferase concentration and risk of mortality from liver diseases. BMJ, 328(7446), 983."
+    ],
+    "content": "[생리적 원인]\n사구체 투과성 증가, 세뇨관 재흡수 저하\n[생활습관 요인]\n과격한 운동, 발열, 탈수\n[질환 연관성]\n사구체신염, 당뇨병성 신병증, 고혈압성 신증\n[약물 영향]\nNSAID, ACE 억제제, 항생제(아미노글리코사이드계)",
+    "category": "cause",
+    "standard_name": "urine_protein"
+  },
+  {
+    "id": "7eaade81-26ca-4d43-804b-5fb3b335a89b",
+    "title": "혈청 크레아티닌 - 원인 및 연관 해설",
+    "domain": null,
+    "source": [
+      "질병관리청. (n.d.). 국가건강정보포털 – 건강정보. https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoMain.do",
+      "세브란스병원. (n.d.). 건강정보. https://gs.severance.healthcare/health/index.do",
+      "Tonetti, M. S., Jepsen, S., Jin, L., & Otomo-Corgel, J. (2017). Periodontal disease and systemic health. Journal of Clinical Periodontology, 44(S18), S22–S29.",
+      "DeFronzo, R. A., Ferrannini, E., Groop, L., et al. (2015). Type 2 diabetes mellitus. Nature Reviews Disease Primers, 1, 15019.",
+      "American Diabetes Association. (2022). Standards of medical care in diabetes—2022 abridged for primary care providers. Clinical Diabetes, 40(1), 10–38.",
+      "Rehm, J., Gmel Sr, G. E., Gmel, G., Hasan, O. S., Imtiaz, S., Popova, S., ... & Shuper, P. A. (2017). Alcohol use and disease burden. Addiction, 112(6), 968–1001.",
+      "Matsushita, K., Coresh, J., Sang, Y., Chalmers, J., Fox, C., Guallar, E., ... & Ärnlöv, J. (2015). Estimated glomerular filtration rate and albuminuria for prediction of cardiovascular outcomes. The Lancet Diabetes & Endocrinology, 3(7), 514–525.",
+      "Skyler, J. S., Bakris, G. L., Bonifacio, E., Darsow, T., Eckel, R. H., Groop, L., ... & Ratner, R. E. (2017). Differentiation of diabetes by pathophysiology, natural history, and prognosis. Diabetes, 66(2), 241–255.",
+      "Ference, B. A., Ginsberg, H. N., Graham, I., Ray, K. K., Packard, C. J., Bruckert, E., ... & Catapano, A. L. (2017). Low-density lipoproteins cause atherosclerotic cardiovascular disease. European Heart Journal, 38(32), 2459–2472.",
+      "Hyeon, C. K., Chung, M. N., Sun, H. J., Kwang, H. H., Oh, D. K., & Suh, I. (2004). Normal serum aminotransferase concentration and risk of mortality from liver diseases. BMJ, 328(7446), 983."
+    ],
+    "content": "[생리적 원인]\n신장 여과능 저하, 근육량 증가\n[생활습관 요인]\n단백질 과다섭취, 운동량 증가, 탈수\n[질환 연관성]\n만성신부전, 요로폐쇄, 급성신손상\n[약물 영향]\n크레아틴보충제, ACE억제제, 이뇨제, 항생제",
+    "category": "cause",
+    "standard_name": "creatinine"
+  },
+  {
+    "id": "369a6ce0-98f3-46b3-9998-d7ea4f35c79d",
+    "title": "eGFR - 원인 및 연관 해설",
+    "domain": null,
+    "source": [
+      "질병관리청. (n.d.). 국가건강정보포털 – 건강정보. https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoMain.do",
+      "세브란스병원. (n.d.). 건강정보. https://gs.severance.healthcare/health/index.do",
+      "Tonetti, M. S., Jepsen, S., Jin, L., & Otomo-Corgel, J. (2017). Periodontal disease and systemic health. Journal of Clinical Periodontology, 44(S18), S22–S29.",
+      "DeFronzo, R. A., Ferrannini, E., Groop, L., et al. (2015). Type 2 diabetes mellitus. Nature Reviews Disease Primers, 1, 15019.",
+      "American Diabetes Association. (2022). Standards of medical care in diabetes—2022 abridged for primary care providers. Clinical Diabetes, 40(1), 10–38.",
+      "Rehm, J., Gmel Sr, G. E., Gmel, G., Hasan, O. S., Imtiaz, S., Popova, S., ... & Shuper, P. A. (2017). Alcohol use and disease burden. Addiction, 112(6), 968–1001.",
+      "Matsushita, K., Coresh, J., Sang, Y., Chalmers, J., Fox, C., Guallar, E., ... & Ärnlöv, J. (2015). Estimated glomerular filtration rate and albuminuria for prediction of cardiovascular outcomes. The Lancet Diabetes & Endocrinology, 3(7), 514–525.",
+      "Skyler, J. S., Bakris, G. L., Bonifacio, E., Darsow, T., Eckel, R. H., Groop, L., ... & Ratner, R. E. (2017). Differentiation of diabetes by pathophysiology, natural history, and prognosis. Diabetes, 66(2), 241–255.",
+      "Ference, B. A., Ginsberg, H. N., Graham, I., Ray, K. K., Packard, C. J., Bruckert, E., ... & Catapano, A. L. (2017). Low-density lipoproteins cause atherosclerotic cardiovascular disease. European Heart Journal, 38(32), 2459–2472.",
+      "Hyeon, C. K., Chung, M. N., Sun, H. J., Kwang, H. H., Oh, D. K., & Suh, I. (2004). Normal serum aminotransferase concentration and risk of mortality from liver diseases. BMJ, 328(7446), 983."
+    ],
+    "content": "[생리적 원인]\n사구체 여과율 감소 (노화·신손상)\n[생활습관 요인]\n탈수, 고단백 식단\n[질환 연관성]\n만성신장질환, 당뇨병성 신병증\n[약물 영향]\n신독성 약물(암포테리신, 시스플라틴, NSAID)",
+    "category": "cause",
+    "standard_name": "egfr"
+  },
+  {
+    "id": "853f14c4-f352-4d35-b748-30cc7f86680d",
+    "title": "AST(GOT) - 원인 및 연관 해설",
+    "domain": null,
+    "source": [
+      "질병관리청. (n.d.). 국가건강정보포털 – 건강정보. https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoMain.do",
+      "세브란스병원. (n.d.). 건강정보. https://gs.severance.healthcare/health/index.do",
+      "Tonetti, M. S., Jepsen, S., Jin, L., & Otomo-Corgel, J. (2017). Periodontal disease and systemic health. Journal of Clinical Periodontology, 44(S18), S22–S29.",
+      "DeFronzo, R. A., Ferrannini, E., Groop, L., et al. (2015). Type 2 diabetes mellitus. Nature Reviews Disease Primers, 1, 15019.",
+      "American Diabetes Association. (2022). Standards of medical care in diabetes—2022 abridged for primary care providers. Clinical Diabetes, 40(1), 10–38.",
+      "Rehm, J., Gmel Sr, G. E., Gmel, G., Hasan, O. S., Imtiaz, S., Popova, S., ... & Shuper, P. A. (2017). Alcohol use and disease burden. Addiction, 112(6), 968–1001.",
+      "Matsushita, K., Coresh, J., Sang, Y., Chalmers, J., Fox, C., Guallar, E., ... & Ärnlöv, J. (2015). Estimated glomerular filtration rate and albuminuria for prediction of cardiovascular outcomes. The Lancet Diabetes & Endocrinology, 3(7), 514–525.",
+      "Skyler, J. S., Bakris, G. L., Bonifacio, E., Darsow, T., Eckel, R. H., Groop, L., ... & Ratner, R. E. (2017). Differentiation of diabetes by pathophysiology, natural history, and prognosis. Diabetes, 66(2), 241–255.",
+      "Ference, B. A., Ginsberg, H. N., Graham, I., Ray, K. K., Packard, C. J., Bruckert, E., ... & Catapano, A. L. (2017). Low-density lipoproteins cause atherosclerotic cardiovascular disease. European Heart Journal, 38(32), 2459–2472.",
+      "Hyeon, C. K., Chung, M. N., Sun, H. J., Kwang, H. H., Oh, D. K., & Suh, I. (2004). Normal serum aminotransferase concentration and risk of mortality from liver diseases. BMJ, 328(7446), 983."
+    ],
+    "content": "[생리적 원인]\n간세포·근육세포 손상, 세포막 투과성 증가\n[생활습관 요인]\n과음, 격렬한 운동\n[질환 연관성]\n급·만성간염, 근육질환, 심근경색\n[약물 영향]\n항결핵제(INH), 스타틴, 아세트아미노펜",
+    "category": "cause",
+    "standard_name": "ast"
+  },
+  {
+    "id": "4880e5e3-3619-4530-8bb4-6c41c24a775e",
+    "title": "ALT(GPT) - 원인 및 연관 해설",
+    "domain": null,
+    "source": [
+      "질병관리청. (n.d.). 국가건강정보포털 – 건강정보. https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoMain.do",
+      "세브란스병원. (n.d.). 건강정보. https://gs.severance.healthcare/health/index.do",
+      "Tonetti, M. S., Jepsen, S., Jin, L., & Otomo-Corgel, J. (2017). Periodontal disease and systemic health. Journal of Clinical Periodontology, 44(S18), S22–S29.",
+      "DeFronzo, R. A., Ferrannini, E., Groop, L., et al. (2015). Type 2 diabetes mellitus. Nature Reviews Disease Primers, 1, 15019.",
+      "American Diabetes Association. (2022). Standards of medical care in diabetes—2022 abridged for primary care providers. Clinical Diabetes, 40(1), 10–38.",
+      "Rehm, J., Gmel Sr, G. E., Gmel, G., Hasan, O. S., Imtiaz, S., Popova, S., ... & Shuper, P. A. (2017). Alcohol use and disease burden. Addiction, 112(6), 968–1001.",
+      "Matsushita, K., Coresh, J., Sang, Y., Chalmers, J., Fox, C., Guallar, E., ... & Ärnlöv, J. (2015). Estimated glomerular filtration rate and albuminuria for prediction of cardiovascular outcomes. The Lancet Diabetes & Endocrinology, 3(7), 514–525.",
+      "Skyler, J. S., Bakris, G. L., Bonifacio, E., Darsow, T., Eckel, R. H., Groop, L., ... & Ratner, R. E. (2017). Differentiation of diabetes by pathophysiology, natural history, and prognosis. Diabetes, 66(2), 241–255.",
+      "Ference, B. A., Ginsberg, H. N., Graham, I., Ray, K. K., Packard, C. J., Bruckert, E., ... & Catapano, A. L. (2017). Low-density lipoproteins cause atherosclerotic cardiovascular disease. European Heart Journal, 38(32), 2459–2472.",
+      "Hyeon, C. K., Chung, M. N., Sun, H. J., Kwang, H. H., Oh, D. K., & Suh, I. (2004). Normal serum aminotransferase concentration and risk of mortality from liver diseases. BMJ, 328(7446), 983."
+    ],
+    "content": "[생리적 원인]\n간세포 내 효소 유리\n[생활습관 요인]\n과음, 비만, 고열량식\n[질환 연관성]\n지방간, 간염, 약물성 간손상\n[약물 영향]\n스타틴, 항경련제, 아세트아미노펜",
+    "category": "cause",
+    "standard_name": "alt"
+  },
+  {
+    "id": "5817a02c-ba33-4dcb-99c0-818f782db757",
+    "title": "γ-GTP - 원인 및 연관 해설",
+    "domain": null,
+    "source": [
+      "질병관리청. (n.d.). 국가건강정보포털 – 건강정보. https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoMain.do",
+      "세브란스병원. (n.d.). 건강정보. https://gs.severance.healthcare/health/index.do",
+      "Tonetti, M. S., Jepsen, S., Jin, L., & Otomo-Corgel, J. (2017). Periodontal disease and systemic health. Journal of Clinical Periodontology, 44(S18), S22–S29.",
+      "DeFronzo, R. A., Ferrannini, E., Groop, L., et al. (2015). Type 2 diabetes mellitus. Nature Reviews Disease Primers, 1, 15019.",
+      "American Diabetes Association. (2022). Standards of medical care in diabetes—2022 abridged for primary care providers. Clinical Diabetes, 40(1), 10–38.",
+      "Rehm, J., Gmel Sr, G. E., Gmel, G., Hasan, O. S., Imtiaz, S., Popova, S., ... & Shuper, P. A. (2017). Alcohol use and disease burden. Addiction, 112(6), 968–1001.",
+      "Matsushita, K., Coresh, J., Sang, Y., Chalmers, J., Fox, C., Guallar, E., ... & Ärnlöv, J. (2015). Estimated glomerular filtration rate and albuminuria for prediction of cardiovascular outcomes. The Lancet Diabetes & Endocrinology, 3(7), 514–525.",
+      "Skyler, J. S., Bakris, G. L., Bonifacio, E., Darsow, T., Eckel, R. H., Groop, L., ... & Ratner, R. E. (2017). Differentiation of diabetes by pathophysiology, natural history, and prognosis. Diabetes, 66(2), 241–255.",
+      "Ference, B. A., Ginsberg, H. N., Graham, I., Ray, K. K., Packard, C. J., Bruckert, E., ... & Catapano, A. L. (2017). Low-density lipoproteins cause atherosclerotic cardiovascular disease. European Heart Journal, 38(32), 2459–2472.",
+      "Hyeon, C. K., Chung, M. N., Sun, H. J., Kwang, H. H., Oh, D. K., & Suh, I. (2004). Normal serum aminotransferase concentration and risk of mortality from liver diseases. BMJ, 328(7446), 983."
+    ],
+    "content": "[생리적 원인]\n담도계 효소 활성 증가\n[생활습관 요인]\n음주, 흡연, 고지방식\n[질환 연관성]\n알코올성간질환, 담도폐쇄, 지방간\n[약물 영향]\n알코올, 항경련제, 항생제",
+    "category": "cause",
+    "standard_name": "ggtp"
+  },
+  {
+    "id": "62c8552b-d073-489f-a807-b86802635105",
+    "title": "수축기/이완기 혈압 - 원인 및 연관 해설",
+    "domain": null,
+    "source": [
+      "질병관리청. (n.d.). 국가건강정보포털 – 건강정보. https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoMain.do",
+      "세브란스병원. (n.d.). 건강정보. https://gs.severance.healthcare/health/index.do",
+      "Tonetti, M. S., Jepsen, S., Jin, L., & Otomo-Corgel, J. (2017). Periodontal disease and systemic health. Journal of Clinical Periodontology, 44(S18), S22–S29.",
+      "DeFronzo, R. A., Ferrannini, E., Groop, L., et al. (2015). Type 2 diabetes mellitus. Nature Reviews Disease Primers, 1, 15019.",
+      "American Diabetes Association. (2022). Standards of medical care in diabetes—2022 abridged for primary care providers. Clinical Diabetes, 40(1), 10–38.",
+      "Rehm, J., Gmel Sr, G. E., Gmel, G., Hasan, O. S., Imtiaz, S., Popova, S., ... & Shuper, P. A. (2017). Alcohol use and disease burden. Addiction, 112(6), 968–1001.",
+      "Matsushita, K., Coresh, J., Sang, Y., Chalmers, J., Fox, C., Guallar, E., ... & Ärnlöv, J. (2015). Estimated glomerular filtration rate and albuminuria for prediction of cardiovascular outcomes. The Lancet Diabetes & Endocrinology, 3(7), 514–525.",
+      "Skyler, J. S., Bakris, G. L., Bonifacio, E., Darsow, T., Eckel, R. H., Groop, L., ... & Ratner, R. E. (2017). Differentiation of diabetes by pathophysiology, natural history, and prognosis. Diabetes, 66(2), 241–255.",
+      "Ference, B. A., Ginsberg, H. N., Graham, I., Ray, K. K., Packard, C. J., Bruckert, E., ... & Catapano, A. L. (2017). Low-density lipoproteins cause atherosclerotic cardiovascular disease. European Heart Journal, 38(32), 2459–2472.",
+      "Hyeon, C. K., Chung, M. N., Sun, H. J., Kwang, H. H., Oh, D. K., & Suh, I. (2004). Normal serum aminotransferase concentration and risk of mortality from liver diseases. BMJ, 328(7446), 983."
+    ],
+    "content": "[생리적 원인]\n혈관탄성 저하, 심박출량 증가, 말초저항 변화\n[생활습관 요인]\n염분 과다, 스트레스, 수면 부족, 카페인, 흡연\n[질환 연관성]\n고혈압, 심부전, 신부전, 갑상선질환\n[약물 영향]\nNSAID, 스테로이드, 피임약, 교감신경흥분제",
+    "category": "cause",
+    "standard_name": "blood_pressure"
+  },
+  {
+    "id": "12a29b30-6c0c-4645-bdc9-3e1dbc22b08d",
+    "title": "BMI / 허리둘레 - 원인 및 연관 해설",
+    "domain": null,
+    "source": [
+      "질병관리청. (n.d.). 국가건강정보포털 – 건강정보. https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoMain.do",
+      "세브란스병원. (n.d.). 건강정보. https://gs.severance.healthcare/health/index.do",
+      "Tonetti, M. S., Jepsen, S., Jin, L., & Otomo-Corgel, J. (2017). Periodontal disease and systemic health. Journal of Clinical Periodontology, 44(S18), S22–S29.",
+      "DeFronzo, R. A., Ferrannini, E., Groop, L., et al. (2015). Type 2 diabetes mellitus. Nature Reviews Disease Primers, 1, 15019.",
+      "American Diabetes Association. (2022). Standards of medical care in diabetes—2022 abridged for primary care providers. Clinical Diabetes, 40(1), 10–38.",
+      "Rehm, J., Gmel Sr, G. E., Gmel, G., Hasan, O. S., Imtiaz, S., Popova, S., ... & Shuper, P. A. (2017). Alcohol use and disease burden. Addiction, 112(6), 968–1001.",
+      "Matsushita, K., Coresh, J., Sang, Y., Chalmers, J., Fox, C., Guallar, E., ... & Ärnlöv, J. (2015). Estimated glomerular filtration rate and albuminuria for prediction of cardiovascular outcomes. The Lancet Diabetes & Endocrinology, 3(7), 514–525.",
+      "Skyler, J. S., Bakris, G. L., Bonifacio, E., Darsow, T., Eckel, R. H., Groop, L., ... & Ratner, R. E. (2017). Differentiation of diabetes by pathophysiology, natural history, and prognosis. Diabetes, 66(2), 241–255.",
+      "Ference, B. A., Ginsberg, H. N., Graham, I., Ray, K. K., Packard, C. J., Bruckert, E., ... & Catapano, A. L. (2017). Low-density lipoproteins cause atherosclerotic cardiovascular disease. European Heart Journal, 38(32), 2459–2472.",
+      "Hyeon, C. K., Chung, M. N., Sun, H. J., Kwang, H. H., Oh, D. K., & Suh, I. (2004). Normal serum aminotransferase concentration and risk of mortality from liver diseases. BMJ, 328(7446), 983."
+    ],
+    "content": "[생리적 원인]\n지방축적, 내장지방 증가, 근육감소\n[생활습관 요인]\n과식, 운동부족, 불규칙 수면, 음주\n[질환 연관성]\n대사증후군, 당뇨병, 지방간, 고혈압\n[약물 영향]\n스테로이드, 항우울제, 인슐린",
+    "category": "cause",
+    "standard_name": "obesity_anthro"
+  },
+  {
+    "id": "dc04570b-e4ee-4328-b860-a8967dea6953",
+    "title": "총콜레스테롤·LDL·TG 동시 상승 - 원인 및 연관 해설",
+    "domain": null,
+    "source": [
+      "질병관리청. (n.d.). 국가건강정보포털 – 건강정보. https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoMain.do",
+      "세브란스병원. (n.d.). 건강정보. https://gs.severance.healthcare/health/index.do",
+      "Tonetti, M. S., Jepsen, S., Jin, L., & Otomo-Corgel, J. (2017). Periodontal disease and systemic health. Journal of Clinical Periodontology, 44(S18), S22–S29.",
+      "DeFronzo, R. A., Ferrannini, E., Groop, L., et al. (2015). Type 2 diabetes mellitus. Nature Reviews Disease Primers, 1, 15019.",
+      "American Diabetes Association. (2022). Standards of medical care in diabetes—2022 abridged for primary care providers. Clinical Diabetes, 40(1), 10–38.",
+      "Rehm, J., Gmel Sr, G. E., Gmel, G., Hasan, O. S., Imtiaz, S., Popova, S., ... & Shuper, P. A. (2017). Alcohol use and disease burden. Addiction, 112(6), 968–1001.",
+      "Matsushita, K., Coresh, J., Sang, Y., Chalmers, J., Fox, C., Guallar, E., ... & Ärnlöv, J. (2015). Estimated glomerular filtration rate and albuminuria for prediction of cardiovascular outcomes. The Lancet Diabetes & Endocrinology, 3(7), 514–525.",
+      "Skyler, J. S., Bakris, G. L., Bonifacio, E., Darsow, T., Eckel, R. H., Groop, L., ... & Ratner, R. E. (2017). Differentiation of diabetes by pathophysiology, natural history, and prognosis. Diabetes, 66(2), 241–255.",
+      "Ference, B. A., Ginsberg, H. N., Graham, I., Ray, K. K., Packard, C. J., Bruckert, E., ... & Catapano, A. L. (2017). Low-density lipoproteins cause atherosclerotic cardiovascular disease. European Heart Journal, 38(32), 2459–2472.",
+      "Hyeon, C. K., Chung, M. N., Sun, H. J., Kwang, H. H., Oh, D. K., & Suh, I. (2004). Normal serum aminotransferase concentration and risk of mortality from liver diseases. BMJ, 328(7446), 983."
+    ],
+    "content": "[생리적 원인]\n간 내 지질합성 과다\n[생활습관 요인]\n고열량식·포화지방 과다\n[질환 연관성]\n복합형 이상지질혈증\n[약물 영향]\n—",
+    "category": "cause",
+    "standard_name": "atherogenic_lipids"
+  },
+  {
+    "id": "7cf5f35c-cb76-44aa-bb78-41a5636ab5ce",
+    "title": "HDL↓ + TG↑ - 원인 및 연관 해설",
+    "domain": null,
+    "source": [
+      "질병관리청. (n.d.). 국가건강정보포털 – 건강정보. https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoMain.do",
+      "세브란스병원. (n.d.). 건강정보. https://gs.severance.healthcare/health/index.do",
+      "Tonetti, M. S., Jepsen, S., Jin, L., & Otomo-Corgel, J. (2017). Periodontal disease and systemic health. Journal of Clinical Periodontology, 44(S18), S22–S29.",
+      "DeFronzo, R. A., Ferrannini, E., Groop, L., et al. (2015). Type 2 diabetes mellitus. Nature Reviews Disease Primers, 1, 15019.",
+      "American Diabetes Association. (2022). Standards of medical care in diabetes—2022 abridged for primary care providers. Clinical Diabetes, 40(1), 10–38.",
+      "Rehm, J., Gmel Sr, G. E., Gmel, G., Hasan, O. S., Imtiaz, S., Popova, S., ... & Shuper, P. A. (2017). Alcohol use and disease burden. Addiction, 112(6), 968–1001.",
+      "Matsushita, K., Coresh, J., Sang, Y., Chalmers, J., Fox, C., Guallar, E., ... & Ärnlöv, J. (2015). Estimated glomerular filtration rate and albuminuria for prediction of cardiovascular outcomes. The Lancet Diabetes & Endocrinology, 3(7), 514–525.",
+      "Skyler, J. S., Bakris, G. L., Bonifacio, E., Darsow, T., Eckel, R. H., Groop, L., ... & Ratner, R. E. (2017). Differentiation of diabetes by pathophysiology, natural history, and prognosis. Diabetes, 66(2), 241–255.",
+      "Ference, B. A., Ginsberg, H. N., Graham, I., Ray, K. K., Packard, C. J., Bruckert, E., ... & Catapano, A. L. (2017). Low-density lipoproteins cause atherosclerotic cardiovascular disease. European Heart Journal, 38(32), 2459–2472.",
+      "Hyeon, C. K., Chung, M. N., Sun, H. J., Kwang, H. H., Oh, D. K., & Suh, I. (2004). Normal serum aminotransferase concentration and risk of mortality from liver diseases. BMJ, 328(7446), 983."
+    ],
+    "content": "[생리적 원인]\n대사불균형·인슐린저항성\n[생활습관 요인]\n비활동, 흡연, 과음\n[질환 연관성]\n대사증후군\n[약물 영향]\n—",
+    "category": "cause",
+    "standard_name": "hdl_triglyceride_pattern"
+  },
+  {
+    "id": "9bdb2952-86a9-4063-8727-86a4d6095f83",
+    "title": "AST/ALT 동시 상승 - 원인 및 연관 해설",
+    "domain": null,
+    "source": [
+      "질병관리청. (n.d.). 국가건강정보포털 – 건강정보. https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoMain.do",
+      "세브란스병원. (n.d.). 건강정보. https://gs.severance.healthcare/health/index.do",
+      "Tonetti, M. S., Jepsen, S., Jin, L., & Otomo-Corgel, J. (2017). Periodontal disease and systemic health. Journal of Clinical Periodontology, 44(S18), S22–S29.",
+      "DeFronzo, R. A., Ferrannini, E., Groop, L., et al. (2015). Type 2 diabetes mellitus. Nature Reviews Disease Primers, 1, 15019.",
+      "American Diabetes Association. (2022). Standards of medical care in diabetes—2022 abridged for primary care providers. Clinical Diabetes, 40(1), 10–38.",
+      "Rehm, J., Gmel Sr, G. E., Gmel, G., Hasan, O. S., Imtiaz, S., Popova, S., ... & Shuper, P. A. (2017). Alcohol use and disease burden. Addiction, 112(6), 968–1001.",
+      "Matsushita, K., Coresh, J., Sang, Y., Chalmers, J., Fox, C., Guallar, E., ... & Ärnlöv, J. (2015). Estimated glomerular filtration rate and albuminuria for prediction of cardiovascular outcomes. The Lancet Diabetes & Endocrinology, 3(7), 514–525.",
+      "Skyler, J. S., Bakris, G. L., Bonifacio, E., Darsow, T., Eckel, R. H., Groop, L., ... & Ratner, R. E. (2017). Differentiation of diabetes by pathophysiology, natural history, and prognosis. Diabetes, 66(2), 241–255.",
+      "Ference, B. A., Ginsberg, H. N., Graham, I., Ray, K. K., Packard, C. J., Bruckert, E., ... & Catapano, A. L. (2017). Low-density lipoproteins cause atherosclerotic cardiovascular disease. European Heart Journal, 38(32), 2459–2472.",
+      "Hyeon, C. K., Chung, M. N., Sun, H. J., Kwang, H. H., Oh, D. K., & Suh, I. (2004). Normal serum aminotransferase concentration and risk of mortality from liver diseases. BMJ, 328(7446), 983."
+    ],
+    "content": "[생리적 원인]\n간세포 손상 (급성/지방간 등)\n[생활습관 요인]\n음주, 지방식\n[질환 연관성]\n간염, 지방간, 약물독성\n[약물 영향]\n항결핵제, 아세트아미노펜",
+    "category": "cause",
+    "standard_name": "liver_enzyme_pattern"
+  }
+]

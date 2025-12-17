@@ -1,0 +1,602 @@
+[
+  {
+    "id": "ba55a1a0-c14d-441a-aed5-29b725defc2d",
+    "title": "공복혈당 - 행동 가이드",
+    "domain": "diet",
+    "source": [
+      "질병관리청. (n.d.). 국가건강정보포털 – 건강정보. https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoMain.do",
+      "세브란스병원. (n.d.). 건강정보. https://gs.severance.healthcare/health/index.do",
+      "Mayo Clinic. (n.d.). Healthy lifestyle. https://www.mayoclinic.org/healthy-lifestyle",
+      "Kyu, H. H., Abate, D., Abate, K. H., et al. (2016). Physical activity and risk of breast cancer, colon cancer, diabetes, ischemic heart disease, and ischemic stroke. BMJ, 354, i3857.",
+      "Cappuccio, F. P., D’Elia, L., Strazzullo, P., & Miller, M. A. (2010). Sleep duration and all-cause mortality. Sleep, 33(5), 585–592."
+    ],
+    "content": "정제탄수화물, 설탕, 단 음료 줄이고 식이섬유·단백질 위주 식사. 일정한 시간에 3끼 섭취.",
+    "category": "action_guide",
+    "standard_name": "fasting_glucose"
+  },
+  {
+    "id": "01651293-a0c5-41ab-82de-1c83e76a475f",
+    "title": "공복혈당 - 행동 가이드",
+    "domain": "exercise",
+    "source": [
+      "질병관리청. (n.d.). 국가건강정보포털 – 건강정보. https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoMain.do",
+      "세브란스병원. (n.d.). 건강정보. https://gs.severance.healthcare/health/index.do",
+      "Mayo Clinic. (n.d.). Healthy lifestyle. https://www.mayoclinic.org/healthy-lifestyle",
+      "Kyu, H. H., Abate, D., Abate, K. H., et al. (2016). Physical activity and risk of breast cancer, colon cancer, diabetes, ischemic heart disease, and ischemic stroke. BMJ, 354, i3857.",
+      "Cappuccio, F. P., D’Elia, L., Strazzullo, P., & Miller, M. A. (2010). Sleep duration and all-cause mortality. Sleep, 33(5), 585–592."
+    ],
+    "content": "유산소운동(하루 30분 brisk walk 이상), 식후 1시간 내 가벼운 활동.",
+    "category": "action_guide",
+    "standard_name": "fasting_glucose"
+  },
+  {
+    "id": "4aaa7241-b55a-43f2-aa0d-390ffe41bcd1",
+    "title": "공복혈당 - 행동 가이드",
+    "domain": "sleep_stress",
+    "source": [
+      "질병관리청. (n.d.). 국가건강정보포털 – 건강정보. https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoMain.do",
+      "세브란스병원. (n.d.). 건강정보. https://gs.severance.healthcare/health/index.do",
+      "Mayo Clinic. (n.d.). Healthy lifestyle. https://www.mayoclinic.org/healthy-lifestyle",
+      "Kyu, H. H., Abate, D., Abate, K. H., et al. (2016). Physical activity and risk of breast cancer, colon cancer, diabetes, ischemic heart disease, and ischemic stroke. BMJ, 354, i3857.",
+      "Cappuccio, F. P., D’Elia, L., Strazzullo, P., & Miller, M. A. (2010). Sleep duration and all-cause mortality. Sleep, 33(5), 585–592."
+    ],
+    "content": "일정한 수면패턴 유지, 스트레스 시 과식 피하기.",
+    "category": "action_guide",
+    "standard_name": "fasting_glucose"
+  },
+  {
+    "id": "2a600b90-1dba-47e9-9a90-a646cde74f80",
+    "title": "공복혈당 - 행동 가이드",
+    "domain": "smoking_alcohol",
+    "source": [
+      "질병관리청. (n.d.). 국가건강정보포털 – 건강정보. https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoMain.do",
+      "세브란스병원. (n.d.). 건강정보. https://gs.severance.healthcare/health/index.do",
+      "Mayo Clinic. (n.d.). Healthy lifestyle. https://www.mayoclinic.org/healthy-lifestyle",
+      "Kyu, H. H., Abate, D., Abate, K. H., et al. (2016). Physical activity and risk of breast cancer, colon cancer, diabetes, ischemic heart disease, and ischemic stroke. BMJ, 354, i3857.",
+      "Cappuccio, F. P., D’Elia, L., Strazzullo, P., & Miller, M. A. (2010). Sleep duration and all-cause mortality. Sleep, 33(5), 585–592."
+    ],
+    "content": "음주·흡연 모두 혈당 변동성 높임 — 금연, 절주 필수.",
+    "category": "action_guide",
+    "standard_name": "fasting_glucose"
+  },
+  {
+    "id": "45b72f43-568b-4721-b40a-9a230a08a3d6",
+    "title": "LDL/총콜레스테롤 - 행동 가이드",
+    "domain": "diet",
+    "source": [
+      "질병관리청. (n.d.). 국가건강정보포털 – 건강정보. https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoMain.do",
+      "세브란스병원. (n.d.). 건강정보. https://gs.severance.healthcare/health/index.do",
+      "Mayo Clinic. (n.d.). Healthy lifestyle. https://www.mayoclinic.org/healthy-lifestyle",
+      "Kyu, H. H., Abate, D., Abate, K. H., et al. (2016). Physical activity and risk of breast cancer, colon cancer, diabetes, ischemic heart disease, and ischemic stroke. BMJ, 354, i3857.",
+      "Cappuccio, F. P., D’Elia, L., Strazzullo, P., & Miller, M. A. (2010). Sleep duration and all-cause mortality. Sleep, 33(5), 585–592."
+    ],
+    "content": "포화지방(붉은 고기, 버터) 줄이고, 불포화지방(등푸른생선, 견과류) 섭취. 식이섬유 충분히.",
+    "category": "action_guide",
+    "standard_name": "chol_ldl"
+  },
+  {
+    "id": "5e422ef4-9ff7-4aac-a943-e17298b5f920",
+    "title": "LDL/총콜레스테롤 - 행동 가이드",
+    "domain": "exercise",
+    "source": [
+      "질병관리청. (n.d.). 국가건강정보포털 – 건강정보. https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoMain.do",
+      "세브란스병원. (n.d.). 건강정보. https://gs.severance.healthcare/health/index.do",
+      "Mayo Clinic. (n.d.). Healthy lifestyle. https://www.mayoclinic.org/healthy-lifestyle",
+      "Kyu, H. H., Abate, D., Abate, K. H., et al. (2016). Physical activity and risk of breast cancer, colon cancer, diabetes, ischemic heart disease, and ischemic stroke. BMJ, 354, i3857.",
+      "Cappuccio, F. P., D’Elia, L., Strazzullo, P., & Miller, M. A. (2010). Sleep duration and all-cause mortality. Sleep, 33(5), 585–592."
+    ],
+    "content": "유산소운동(주 150분 이상), 체중감소 5~10%만으로도 개선.",
+    "category": "action_guide",
+    "standard_name": "chol_ldl"
+  },
+  {
+    "id": "425ed4b5-172f-464b-96cc-f175ef1cdec0",
+    "title": "LDL/총콜레스테롤 - 행동 가이드",
+    "domain": "sleep_stress",
+    "source": [
+      "질병관리청. (n.d.). 국가건강정보포털 – 건강정보. https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoMain.do",
+      "세브란스병원. (n.d.). 건강정보. https://gs.severance.healthcare/health/index.do",
+      "Mayo Clinic. (n.d.). Healthy lifestyle. https://www.mayoclinic.org/healthy-lifestyle",
+      "Kyu, H. H., Abate, D., Abate, K. H., et al. (2016). Physical activity and risk of breast cancer, colon cancer, diabetes, ischemic heart disease, and ischemic stroke. BMJ, 354, i3857.",
+      "Cappuccio, F. P., D’Elia, L., Strazzullo, P., & Miller, M. A. (2010). Sleep duration and all-cause mortality. Sleep, 33(5), 585–592."
+    ],
+    "content": "스트레스는 코르티솔↑ → 지질대사 악화, 명상·심호흡 권장.",
+    "category": "action_guide",
+    "standard_name": "chol_ldl"
+  },
+  {
+    "id": "0e516e04-37d0-49a0-b92a-10bcfbdc164f",
+    "title": "LDL/총콜레스테롤 - 행동 가이드",
+    "domain": "smoking_alcohol",
+    "source": [
+      "질병관리청. (n.d.). 국가건강정보포털 – 건강정보. https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoMain.do",
+      "세브란스병원. (n.d.). 건강정보. https://gs.severance.healthcare/health/index.do",
+      "Mayo Clinic. (n.d.). Healthy lifestyle. https://www.mayoclinic.org/healthy-lifestyle",
+      "Kyu, H. H., Abate, D., Abate, K. H., et al. (2016). Physical activity and risk of breast cancer, colon cancer, diabetes, ischemic heart disease, and ischemic stroke. BMJ, 354, i3857.",
+      "Cappuccio, F. P., D’Elia, L., Strazzullo, P., & Miller, M. A. (2010). Sleep duration and all-cause mortality. Sleep, 33(5), 585–592."
+    ],
+    "content": "흡연은 HDL↓, 절주로 간 대사 부담 줄이기.",
+    "category": "action_guide",
+    "standard_name": "chol_ldl"
+  },
+  {
+    "id": "37305010-c366-4718-a147-f7e49b12d138",
+    "title": "HDL 낮음 - 행동 가이드",
+    "domain": "diet",
+    "source": [
+      "질병관리청. (n.d.). 국가건강정보포털 – 건강정보. https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoMain.do",
+      "세브란스병원. (n.d.). 건강정보. https://gs.severance.healthcare/health/index.do",
+      "Mayo Clinic. (n.d.). Healthy lifestyle. https://www.mayoclinic.org/healthy-lifestyle",
+      "Kyu, H. H., Abate, D., Abate, K. H., et al. (2016). Physical activity and risk of breast cancer, colon cancer, diabetes, ischemic heart disease, and ischemic stroke. BMJ, 354, i3857.",
+      "Cappuccio, F. P., D’Elia, L., Strazzullo, P., & Miller, M. A. (2010). Sleep duration and all-cause mortality. Sleep, 33(5), 585–592."
+    ],
+    "content": "견과류, 등푸른 생선, 올리브유 섭취 늘리기. 트랜스지방(과자, 튀김) 금지.",
+    "category": "action_guide",
+    "standard_name": "chol_hdl"
+  },
+  {
+    "id": "d7389970-d55e-43c5-ae53-78f25e119e6b",
+    "title": "HDL 낮음 - 행동 가이드",
+    "domain": "exercise",
+    "source": [
+      "질병관리청. (n.d.). 국가건강정보포털 – 건강정보. https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoMain.do",
+      "세브란스병원. (n.d.). 건강정보. https://gs.severance.healthcare/health/index.do",
+      "Mayo Clinic. (n.d.). Healthy lifestyle. https://www.mayoclinic.org/healthy-lifestyle",
+      "Kyu, H. H., Abate, D., Abate, K. H., et al. (2016). Physical activity and risk of breast cancer, colon cancer, diabetes, ischemic heart disease, and ischemic stroke. BMJ, 354, i3857.",
+      "Cappuccio, F. P., D’Elia, L., Strazzullo, P., & Miller, M. A. (2010). Sleep duration and all-cause mortality. Sleep, 33(5), 585–592."
+    ],
+    "content": "중강도 유산소+근력운동 병행, 꾸준한 습관 중요.",
+    "category": "action_guide",
+    "standard_name": "chol_hdl"
+  },
+  {
+    "id": "717688ec-9fed-470b-adc7-40a582defd79",
+    "title": "HDL 낮음 - 행동 가이드",
+    "domain": "sleep_stress",
+    "source": [
+      "질병관리청. (n.d.). 국가건강정보포털 – 건강정보. https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoMain.do",
+      "세브란스병원. (n.d.). 건강정보. https://gs.severance.healthcare/health/index.do",
+      "Mayo Clinic. (n.d.). Healthy lifestyle. https://www.mayoclinic.org/healthy-lifestyle",
+      "Kyu, H. H., Abate, D., Abate, K. H., et al. (2016). Physical activity and risk of breast cancer, colon cancer, diabetes, ischemic heart disease, and ischemic stroke. BMJ, 354, i3857.",
+      "Cappuccio, F. P., D’Elia, L., Strazzullo, P., & Miller, M. A. (2010). Sleep duration and all-cause mortality. Sleep, 33(5), 585–592."
+    ],
+    "content": "수면 부족 시 HDL 감소 — 최소 6시간 이상 숙면 권장.",
+    "category": "action_guide",
+    "standard_name": "chol_hdl"
+  },
+  {
+    "id": "ac39b0d4-727a-44fb-aa74-471ed4f80d54",
+    "title": "HDL 낮음 - 행동 가이드",
+    "domain": "smoking_alcohol",
+    "source": [
+      "질병관리청. (n.d.). 국가건강정보포털 – 건강정보. https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoMain.do",
+      "세브란스병원. (n.d.). 건강정보. https://gs.severance.healthcare/health/index.do",
+      "Mayo Clinic. (n.d.). Healthy lifestyle. https://www.mayoclinic.org/healthy-lifestyle",
+      "Kyu, H. H., Abate, D., Abate, K. H., et al. (2016). Physical activity and risk of breast cancer, colon cancer, diabetes, ischemic heart disease, and ischemic stroke. BMJ, 354, i3857.",
+      "Cappuccio, F. P., D’Elia, L., Strazzullo, P., & Miller, M. A. (2010). Sleep duration and all-cause mortality. Sleep, 33(5), 585–592."
+    ],
+    "content": "금연 시 HDL 10%↑, 절주 유지.",
+    "category": "action_guide",
+    "standard_name": "chol_hdl"
+  },
+  {
+    "id": "5742f7b7-8f86-4a99-9028-63c972865944",
+    "title": "트리글리세라이드 - 행동 가이드",
+    "domain": "diet",
+    "source": [
+      "질병관리청. (n.d.). 국가건강정보포털 – 건강정보. https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoMain.do",
+      "세브란스병원. (n.d.). 건강정보. https://gs.severance.healthcare/health/index.do",
+      "Mayo Clinic. (n.d.). Healthy lifestyle. https://www.mayoclinic.org/healthy-lifestyle",
+      "Kyu, H. H., Abate, D., Abate, K. H., et al. (2016). Physical activity and risk of breast cancer, colon cancer, diabetes, ischemic heart disease, and ischemic stroke. BMJ, 354, i3857.",
+      "Cappuccio, F. P., D’Elia, L., Strazzullo, P., & Miller, M. A. (2010). Sleep duration and all-cause mortality. Sleep, 33(5), 585–592."
+    ],
+    "content": "단순당, 알코올 제한. 저탄수화물 식단, 채소·단백질 위주 식사.",
+    "category": "action_guide",
+    "standard_name": "triglyceride"
+  },
+  {
+    "id": "1d51f486-39f1-43e7-a751-6de13100b37d",
+    "title": "트리글리세라이드 - 행동 가이드",
+    "domain": "exercise",
+    "source": [
+      "질병관리청. (n.d.). 국가건강정보포털 – 건강정보. https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoMain.do",
+      "세브란스병원. (n.d.). 건강정보. https://gs.severance.healthcare/health/index.do",
+      "Mayo Clinic. (n.d.). Healthy lifestyle. https://www.mayoclinic.org/healthy-lifestyle",
+      "Kyu, H. H., Abate, D., Abate, K. H., et al. (2016). Physical activity and risk of breast cancer, colon cancer, diabetes, ischemic heart disease, and ischemic stroke. BMJ, 354, i3857.",
+      "Cappuccio, F. P., D’Elia, L., Strazzullo, P., & Miller, M. A. (2010). Sleep duration and all-cause mortality. Sleep, 33(5), 585–592."
+    ],
+    "content": "유산소운동(속보, 수영, 자전거), 체지방 감소 목표.",
+    "category": "action_guide",
+    "standard_name": "triglyceride"
+  },
+  {
+    "id": "46efaef3-5f1d-46b9-b28c-93d030202f00",
+    "title": "트리글리세라이드 - 행동 가이드",
+    "domain": "sleep_stress",
+    "source": [
+      "질병관리청. (n.d.). 국가건강정보포털 – 건강정보. https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoMain.do",
+      "세브란스병원. (n.d.). 건강정보. https://gs.severance.healthcare/health/index.do",
+      "Mayo Clinic. (n.d.). Healthy lifestyle. https://www.mayoclinic.org/healthy-lifestyle",
+      "Kyu, H. H., Abate, D., Abate, K. H., et al. (2016). Physical activity and risk of breast cancer, colon cancer, diabetes, ischemic heart disease, and ischemic stroke. BMJ, 354, i3857.",
+      "Cappuccio, F. P., D’Elia, L., Strazzullo, P., & Miller, M. A. (2010). Sleep duration and all-cause mortality. Sleep, 33(5), 585–592."
+    ],
+    "content": "불규칙 수면·스트레스는 TG 상승 — 규칙 생활 필수.",
+    "category": "action_guide",
+    "standard_name": "triglyceride"
+  },
+  {
+    "id": "0735b0ee-66d6-4598-a1cc-90d1e7682828",
+    "title": "트리글리세라이드 - 행동 가이드",
+    "domain": "smoking_alcohol",
+    "source": [
+      "질병관리청. (n.d.). 국가건강정보포털 – 건강정보. https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoMain.do",
+      "세브란스병원. (n.d.). 건강정보. https://gs.severance.healthcare/health/index.do",
+      "Mayo Clinic. (n.d.). Healthy lifestyle. https://www.mayoclinic.org/healthy-lifestyle",
+      "Kyu, H. H., Abate, D., Abate, K. H., et al. (2016). Physical activity and risk of breast cancer, colon cancer, diabetes, ischemic heart disease, and ischemic stroke. BMJ, 354, i3857.",
+      "Cappuccio, F. P., D’Elia, L., Strazzullo, P., & Miller, M. A. (2010). Sleep duration and all-cause mortality. Sleep, 33(5), 585–592."
+    ],
+    "content": "음주 중단 시 TG 수치 빠르게 개선.",
+    "category": "action_guide",
+    "standard_name": "triglyceride"
+  },
+  {
+    "id": "e758d4ef-58a5-4df5-bd78-6e9cf1472373",
+    "title": "혈색소 - 행동 가이드",
+    "domain": "diet",
+    "source": [
+      "질병관리청. (n.d.). 국가건강정보포털 – 건강정보. https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoMain.do",
+      "세브란스병원. (n.d.). 건강정보. https://gs.severance.healthcare/health/index.do",
+      "Mayo Clinic. (n.d.). Healthy lifestyle. https://www.mayoclinic.org/healthy-lifestyle",
+      "Kyu, H. H., Abate, D., Abate, K. H., et al. (2016). Physical activity and risk of breast cancer, colon cancer, diabetes, ischemic heart disease, and ischemic stroke. BMJ, 354, i3857.",
+      "Cappuccio, F. P., D’Elia, L., Strazzullo, P., & Miller, M. A. (2010). Sleep duration and all-cause mortality. Sleep, 33(5), 585–592."
+    ],
+    "content": "철분 풍부식(붉은고기, 간, 시금치), 비타민C 동시 섭취. 단, 혈색소 높을 경우 탈수 예방.",
+    "category": "action_guide",
+    "standard_name": "hemoglobin"
+  },
+  {
+    "id": "0dca534c-b34a-4a3f-a31c-fc46ce5cd4e5",
+    "title": "혈색소 - 행동 가이드",
+    "domain": "exercise",
+    "source": [
+      "질병관리청. (n.d.). 국가건강정보포털 – 건강정보. https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoMain.do",
+      "세브란스병원. (n.d.). 건강정보. https://gs.severance.healthcare/health/index.do",
+      "Mayo Clinic. (n.d.). Healthy lifestyle. https://www.mayoclinic.org/healthy-lifestyle",
+      "Kyu, H. H., Abate, D., Abate, K. H., et al. (2016). Physical activity and risk of breast cancer, colon cancer, diabetes, ischemic heart disease, and ischemic stroke. BMJ, 354, i3857.",
+      "Cappuccio, F. P., D’Elia, L., Strazzullo, P., & Miller, M. A. (2010). Sleep duration and all-cause mortality. Sleep, 33(5), 585–592."
+    ],
+    "content": "가벼운 유산소로 순환 개선. 과도운동은 빈혈 악화 가능.",
+    "category": "action_guide",
+    "standard_name": "hemoglobin"
+  },
+  {
+    "id": "f75cbefc-7f8a-429f-9f31-9052464050d6",
+    "title": "혈색소 - 행동 가이드",
+    "domain": "sleep_stress",
+    "source": [
+      "질병관리청. (n.d.). 국가건강정보포털 – 건강정보. https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoMain.do",
+      "세브란스병원. (n.d.). 건강정보. https://gs.severance.healthcare/health/index.do",
+      "Mayo Clinic. (n.d.). Healthy lifestyle. https://www.mayoclinic.org/healthy-lifestyle",
+      "Kyu, H. H., Abate, D., Abate, K. H., et al. (2016). Physical activity and risk of breast cancer, colon cancer, diabetes, ischemic heart disease, and ischemic stroke. BMJ, 354, i3857.",
+      "Cappuccio, F. P., D’Elia, L., Strazzullo, P., & Miller, M. A. (2010). Sleep duration and all-cause mortality. Sleep, 33(5), 585–592."
+    ],
+    "content": "피로·불면 시 산소공급 저하, 수면시간 확보.",
+    "category": "action_guide",
+    "standard_name": "hemoglobin"
+  },
+  {
+    "id": "4cfd8a95-df53-4ae8-a7e2-eb4a1aa1735f",
+    "title": "혈색소 - 행동 가이드",
+    "domain": "smoking_alcohol",
+    "source": [
+      "질병관리청. (n.d.). 국가건강정보포털 – 건강정보. https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoMain.do",
+      "세브란스병원. (n.d.). 건강정보. https://gs.severance.healthcare/health/index.do",
+      "Mayo Clinic. (n.d.). Healthy lifestyle. https://www.mayoclinic.org/healthy-lifestyle",
+      "Kyu, H. H., Abate, D., Abate, K. H., et al. (2016). Physical activity and risk of breast cancer, colon cancer, diabetes, ischemic heart disease, and ischemic stroke. BMJ, 354, i3857.",
+      "Cappuccio, F. P., D’Elia, L., Strazzullo, P., & Miller, M. A. (2010). Sleep duration and all-cause mortality. Sleep, 33(5), 585–592."
+    ],
+    "content": "흡연은 혈색소 인위적 상승, 금연 권장.",
+    "category": "action_guide",
+    "standard_name": "hemoglobin"
+  },
+  {
+    "id": "6739ac28-fb7b-4464-9a36-d984705dcb7d",
+    "title": "요단백 - 행동 가이드",
+    "domain": "diet",
+    "source": [
+      "질병관리청. (n.d.). 국가건강정보포털 – 건강정보. https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoMain.do",
+      "세브란스병원. (n.d.). 건강정보. https://gs.severance.healthcare/health/index.do",
+      "Mayo Clinic. (n.d.). Healthy lifestyle. https://www.mayoclinic.org/healthy-lifestyle",
+      "Kyu, H. H., Abate, D., Abate, K. H., et al. (2016). Physical activity and risk of breast cancer, colon cancer, diabetes, ischemic heart disease, and ischemic stroke. BMJ, 354, i3857.",
+      "Cappuccio, F. P., D’Elia, L., Strazzullo, P., & Miller, M. A. (2010). Sleep duration and all-cause mortality. Sleep, 33(5), 585–592."
+    ],
+    "content": "염분·단백질 과다 제한, 수분 충분히 섭취.",
+    "category": "action_guide",
+    "standard_name": "urine_protein"
+  },
+  {
+    "id": "68ac6ae2-9484-4de3-bcae-f2e7744b1714",
+    "title": "요단백 - 행동 가이드",
+    "domain": "exercise",
+    "source": [
+      "질병관리청. (n.d.). 국가건강정보포털 – 건강정보. https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoMain.do",
+      "세브란스병원. (n.d.). 건강정보. https://gs.severance.healthcare/health/index.do",
+      "Mayo Clinic. (n.d.). Healthy lifestyle. https://www.mayoclinic.org/healthy-lifestyle",
+      "Kyu, H. H., Abate, D., Abate, K. H., et al. (2016). Physical activity and risk of breast cancer, colon cancer, diabetes, ischemic heart disease, and ischemic stroke. BMJ, 354, i3857.",
+      "Cappuccio, F. P., D’Elia, L., Strazzullo, P., & Miller, M. A. (2010). Sleep duration and all-cause mortality. Sleep, 33(5), 585–592."
+    ],
+    "content": "과격운동·무산소운동 피하고, 가벼운 스트레칭 중심.",
+    "category": "action_guide",
+    "standard_name": "urine_protein"
+  },
+  {
+    "id": "c78f8b49-05c2-496a-a06a-4553eabc0c32",
+    "title": "요단백 - 행동 가이드",
+    "domain": "sleep_stress",
+    "source": [
+      "질병관리청. (n.d.). 국가건강정보포털 – 건강정보. https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoMain.do",
+      "세브란스병원. (n.d.). 건강정보. https://gs.severance.healthcare/health/index.do",
+      "Mayo Clinic. (n.d.). Healthy lifestyle. https://www.mayoclinic.org/healthy-lifestyle",
+      "Kyu, H. H., Abate, D., Abate, K. H., et al. (2016). Physical activity and risk of breast cancer, colon cancer, diabetes, ischemic heart disease, and ischemic stroke. BMJ, 354, i3857.",
+      "Cappuccio, F. P., D’Elia, L., Strazzullo, P., & Miller, M. A. (2010). Sleep duration and all-cause mortality. Sleep, 33(5), 585–592."
+    ],
+    "content": "스트레스성 혈압상승 주의.",
+    "category": "action_guide",
+    "standard_name": "urine_protein"
+  },
+  {
+    "id": "5a867880-9033-4573-b419-c97b500f9f52",
+    "title": "요단백 - 행동 가이드",
+    "domain": "smoking_alcohol",
+    "source": [
+      "질병관리청. (n.d.). 국가건강정보포털 – 건강정보. https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoMain.do",
+      "세브란스병원. (n.d.). 건강정보. https://gs.severance.healthcare/health/index.do",
+      "Mayo Clinic. (n.d.). Healthy lifestyle. https://www.mayoclinic.org/healthy-lifestyle",
+      "Kyu, H. H., Abate, D., Abate, K. H., et al. (2016). Physical activity and risk of breast cancer, colon cancer, diabetes, ischemic heart disease, and ischemic stroke. BMJ, 354, i3857.",
+      "Cappuccio, F. P., D’Elia, L., Strazzullo, P., & Miller, M. A. (2010). Sleep duration and all-cause mortality. Sleep, 33(5), 585–592."
+    ],
+    "content": "음주·흡연 모두 신장 부담 — 금주·금연.",
+    "category": "action_guide",
+    "standard_name": "urine_protein"
+  },
+  {
+    "id": "6e229276-5230-4940-8cd3-1ad2f2997c32",
+    "title": "AST/ALT/γ-GTP - 행동 가이드",
+    "domain": "diet",
+    "source": [
+      "질병관리청. (n.d.). 국가건강정보포털 – 건강정보. https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoMain.do",
+      "세브란스병원. (n.d.). 건강정보. https://gs.severance.healthcare/health/index.do",
+      "Mayo Clinic. (n.d.). Healthy lifestyle. https://www.mayoclinic.org/healthy-lifestyle",
+      "Kyu, H. H., Abate, D., Abate, K. H., et al. (2016). Physical activity and risk of breast cancer, colon cancer, diabetes, ischemic heart disease, and ischemic stroke. BMJ, 354, i3857.",
+      "Cappuccio, F. P., D’Elia, L., Strazzullo, P., & Miller, M. A. (2010). Sleep duration and all-cause mortality. Sleep, 33(5), 585–592."
+    ],
+    "content": "기름진 음식·가공식품 제한, 채소·단백질 위주 균형식.",
+    "category": "action_guide",
+    "standard_name": "liver_enzyme_panel"
+  },
+  {
+    "id": "17c90bce-28c9-468b-b6a6-058d5105f9e9",
+    "title": "AST/ALT/γ-GTP - 행동 가이드",
+    "domain": "exercise",
+    "source": [
+      "질병관리청. (n.d.). 국가건강정보포털 – 건강정보. https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoMain.do",
+      "세브란스병원. (n.d.). 건강정보. https://gs.severance.healthcare/health/index.do",
+      "Mayo Clinic. (n.d.). Healthy lifestyle. https://www.mayoclinic.org/healthy-lifestyle",
+      "Kyu, H. H., Abate, D., Abate, K. H., et al. (2016). Physical activity and risk of breast cancer, colon cancer, diabetes, ischemic heart disease, and ischemic stroke. BMJ, 354, i3857.",
+      "Cappuccio, F. P., D’Elia, L., Strazzullo, P., & Miller, M. A. (2010). Sleep duration and all-cause mortality. Sleep, 33(5), 585–592."
+    ],
+    "content": "무리한 근력운동 피하고, 유산소+가벼운 근육운동 병행.",
+    "category": "action_guide",
+    "standard_name": "liver_enzyme_panel"
+  },
+  {
+    "id": "4acb390a-2753-4cbe-a2c1-1f5532bd9a01",
+    "title": "AST/ALT/γ-GTP - 행동 가이드",
+    "domain": "sleep_stress",
+    "source": [
+      "질병관리청. (n.d.). 국가건강정보포털 – 건강정보. https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoMain.do",
+      "세브란스병원. (n.d.). 건강정보. https://gs.severance.healthcare/health/index.do",
+      "Mayo Clinic. (n.d.). Healthy lifestyle. https://www.mayoclinic.org/healthy-lifestyle",
+      "Kyu, H. H., Abate, D., Abate, K. H., et al. (2016). Physical activity and risk of breast cancer, colon cancer, diabetes, ischemic heart disease, and ischemic stroke. BMJ, 354, i3857.",
+      "Cappuccio, F. P., D’Elia, L., Strazzullo, P., & Miller, M. A. (2010). Sleep duration and all-cause mortality. Sleep, 33(5), 585–592."
+    ],
+    "content": "스트레스·수면부족 시 간 효소 상승 — 수면리듬 유지.",
+    "category": "action_guide",
+    "standard_name": "liver_enzyme_panel"
+  },
+  {
+    "id": "1831a2a2-e82f-4e1b-b630-5507c05f5600",
+    "title": "AST/ALT/γ-GTP - 행동 가이드",
+    "domain": "smoking_alcohol",
+    "source": [
+      "질병관리청. (n.d.). 국가건강정보포털 – 건강정보. https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoMain.do",
+      "세브란스병원. (n.d.). 건강정보. https://gs.severance.healthcare/health/index.do",
+      "Mayo Clinic. (n.d.). Healthy lifestyle. https://www.mayoclinic.org/healthy-lifestyle",
+      "Kyu, H. H., Abate, D., Abate, K. H., et al. (2016). Physical activity and risk of breast cancer, colon cancer, diabetes, ischemic heart disease, and ischemic stroke. BMJ, 354, i3857.",
+      "Cappuccio, F. P., D’Elia, L., Strazzullo, P., & Miller, M. A. (2010). Sleep duration and all-cause mortality. Sleep, 33(5), 585–592."
+    ],
+    "content": "절대적 절주(또는 금주) 필수, 흡연은 간독성 악화.",
+    "category": "action_guide",
+    "standard_name": "liver_enzyme_panel"
+  },
+  {
+    "id": "9e3fad55-8299-43c7-af29-8bbd09e00628",
+    "title": "혈압 - 행동 가이드",
+    "domain": "diet",
+    "source": [
+      "질병관리청. (n.d.). 국가건강정보포털 – 건강정보. https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoMain.do",
+      "세브란스병원. (n.d.). 건강정보. https://gs.severance.healthcare/health/index.do",
+      "Mayo Clinic. (n.d.). Healthy lifestyle. https://www.mayoclinic.org/healthy-lifestyle",
+      "Kyu, H. H., Abate, D., Abate, K. H., et al. (2016). Physical activity and risk of breast cancer, colon cancer, diabetes, ischemic heart disease, and ischemic stroke. BMJ, 354, i3857.",
+      "Cappuccio, F. P., D’Elia, L., Strazzullo, P., & Miller, M. A. (2010). Sleep duration and all-cause mortality. Sleep, 33(5), 585–592."
+    ],
+    "content": "염분(나트륨) 줄이고, 칼륨 풍부한 과일·채소 섭취. 카페인·가공식품 주의.",
+    "category": "action_guide",
+    "standard_name": "blood_pressure"
+  },
+  {
+    "id": "a96abee7-c474-413b-977a-c9d02006d166",
+    "title": "혈압 - 행동 가이드",
+    "domain": "exercise",
+    "source": [
+      "질병관리청. (n.d.). 국가건강정보포털 – 건강정보. https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoMain.do",
+      "세브란스병원. (n.d.). 건강정보. https://gs.severance.healthcare/health/index.do",
+      "Mayo Clinic. (n.d.). Healthy lifestyle. https://www.mayoclinic.org/healthy-lifestyle",
+      "Kyu, H. H., Abate, D., Abate, K. H., et al. (2016). Physical activity and risk of breast cancer, colon cancer, diabetes, ischemic heart disease, and ischemic stroke. BMJ, 354, i3857.",
+      "Cappuccio, F. P., D’Elia, L., Strazzullo, P., & Miller, M. A. (2010). Sleep duration and all-cause mortality. Sleep, 33(5), 585–592."
+    ],
+    "content": "유산소운동(걷기, 자전거, 수영) 꾸준히, 격렬운동은 위험.",
+    "category": "action_guide",
+    "standard_name": "blood_pressure"
+  },
+  {
+    "id": "ae03745a-0ddc-4061-8051-44d8f2a18ddd",
+    "title": "혈압 - 행동 가이드",
+    "domain": "sleep_stress",
+    "source": [
+      "질병관리청. (n.d.). 국가건강정보포털 – 건강정보. https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoMain.do",
+      "세브란스병원. (n.d.). 건강정보. https://gs.severance.healthcare/health/index.do",
+      "Mayo Clinic. (n.d.). Healthy lifestyle. https://www.mayoclinic.org/healthy-lifestyle",
+      "Kyu, H. H., Abate, D., Abate, K. H., et al. (2016). Physical activity and risk of breast cancer, colon cancer, diabetes, ischemic heart disease, and ischemic stroke. BMJ, 354, i3857.",
+      "Cappuccio, F. P., D’Elia, L., Strazzullo, P., & Miller, M. A. (2010). Sleep duration and all-cause mortality. Sleep, 33(5), 585–592."
+    ],
+    "content": "스트레스 조절(명상, 심호흡, 가벼운 산책).",
+    "category": "action_guide",
+    "standard_name": "blood_pressure"
+  },
+  {
+    "id": "82f6fe5c-5d24-48d9-b3e7-8eb7194d884c",
+    "title": "혈압 - 행동 가이드",
+    "domain": "smoking_alcohol",
+    "source": [
+      "질병관리청. (n.d.). 국가건강정보포털 – 건강정보. https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoMain.do",
+      "세브란스병원. (n.d.). 건강정보. https://gs.severance.healthcare/health/index.do",
+      "Mayo Clinic. (n.d.). Healthy lifestyle. https://www.mayoclinic.org/healthy-lifestyle",
+      "Kyu, H. H., Abate, D., Abate, K. H., et al. (2016). Physical activity and risk of breast cancer, colon cancer, diabetes, ischemic heart disease, and ischemic stroke. BMJ, 354, i3857.",
+      "Cappuccio, F. P., D’Elia, L., Strazzullo, P., & Miller, M. A. (2010). Sleep duration and all-cause mortality. Sleep, 33(5), 585–592."
+    ],
+    "content": "흡연은 혈관수축, 음주는 혈압 상승 — 금연·절주 병행.",
+    "category": "action_guide",
+    "standard_name": "blood_pressure"
+  },
+  {
+    "id": "d5ab5042-7fc8-4107-bea2-fa1866346652",
+    "title": "BMI/허리둘레 - 행동 가이드",
+    "domain": "diet",
+    "source": [
+      "질병관리청. (n.d.). 국가건강정보포털 – 건강정보. https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoMain.do",
+      "세브란스병원. (n.d.). 건강정보. https://gs.severance.healthcare/health/index.do",
+      "Mayo Clinic. (n.d.). Healthy lifestyle. https://www.mayoclinic.org/healthy-lifestyle",
+      "Kyu, H. H., Abate, D., Abate, K. H., et al. (2016). Physical activity and risk of breast cancer, colon cancer, diabetes, ischemic heart disease, and ischemic stroke. BMJ, 354, i3857.",
+      "Cappuccio, F. P., D’Elia, L., Strazzullo, P., & Miller, M. A. (2010). Sleep duration and all-cause mortality. Sleep, 33(5), 585–592."
+    ],
+    "content": "소식·균형식·야식 금지. 탄수화물↓, 단백질·섬유↑.",
+    "category": "action_guide",
+    "standard_name": "obesity_anthro"
+  },
+  {
+    "id": "075d9eb1-b835-4d6b-a8ed-273aeadac408",
+    "title": "BMI/허리둘레 - 행동 가이드",
+    "domain": "exercise",
+    "source": [
+      "질병관리청. (n.d.). 국가건강정보포털 – 건강정보. https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoMain.do",
+      "세브란스병원. (n.d.). 건강정보. https://gs.severance.healthcare/health/index.do",
+      "Mayo Clinic. (n.d.). Healthy lifestyle. https://www.mayoclinic.org/healthy-lifestyle",
+      "Kyu, H. H., Abate, D., Abate, K. H., et al. (2016). Physical activity and risk of breast cancer, colon cancer, diabetes, ischemic heart disease, and ischemic stroke. BMJ, 354, i3857.",
+      "Cappuccio, F. P., D’Elia, L., Strazzullo, P., & Miller, M. A. (2010). Sleep duration and all-cause mortality. Sleep, 33(5), 585–592."
+    ],
+    "content": "유산소+근력운동 병행, 꾸준함이 핵심.",
+    "category": "action_guide",
+    "standard_name": "obesity_anthro"
+  },
+  {
+    "id": "f12a0642-a667-4eea-b752-c167c963bc28",
+    "title": "BMI/허리둘레 - 행동 가이드",
+    "domain": "sleep_stress",
+    "source": [
+      "질병관리청. (n.d.). 국가건강정보포털 – 건강정보. https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoMain.do",
+      "세브란스병원. (n.d.). 건강정보. https://gs.severance.healthcare/health/index.do",
+      "Mayo Clinic. (n.d.). Healthy lifestyle. https://www.mayoclinic.org/healthy-lifestyle",
+      "Kyu, H. H., Abate, D., Abate, K. H., et al. (2016). Physical activity and risk of breast cancer, colon cancer, diabetes, ischemic heart disease, and ischemic stroke. BMJ, 354, i3857.",
+      "Cappuccio, F. P., D’Elia, L., Strazzullo, P., & Miller, M. A. (2010). Sleep duration and all-cause mortality. Sleep, 33(5), 585–592."
+    ],
+    "content": "수면부족은 식욕호르몬↑ → 체중 증가, 규칙적 수면 필수.",
+    "category": "action_guide",
+    "standard_name": "obesity_anthro"
+  },
+  {
+    "id": "5ad4633a-5f45-49ba-96bc-4080b925db51",
+    "title": "BMI/허리둘레 - 행동 가이드",
+    "domain": "smoking_alcohol",
+    "source": [
+      "질병관리청. (n.d.). 국가건강정보포털 – 건강정보. https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoMain.do",
+      "세브란스병원. (n.d.). 건강정보. https://gs.severance.healthcare/health/index.do",
+      "Mayo Clinic. (n.d.). Healthy lifestyle. https://www.mayoclinic.org/healthy-lifestyle",
+      "Kyu, H. H., Abate, D., Abate, K. H., et al. (2016). Physical activity and risk of breast cancer, colon cancer, diabetes, ischemic heart disease, and ischemic stroke. BMJ, 354, i3857.",
+      "Cappuccio, F. P., D’Elia, L., Strazzullo, P., & Miller, M. A. (2010). Sleep duration and all-cause mortality. Sleep, 33(5), 585–592."
+    ],
+    "content": "음주·흡연은 체지방·스트레스 호르몬↑ → 금연·절주.",
+    "category": "action_guide",
+    "standard_name": "obesity_anthro"
+  },
+  {
+    "id": "bf1c3368-4fc3-4e13-890c-50cc8d0006d7",
+    "title": "eGFR 낮음 - 행동 가이드",
+    "domain": "diet",
+    "source": [
+      "질병관리청. (n.d.). 국가건강정보포털 – 건강정보. https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoMain.do",
+      "세브란스병원. (n.d.). 건강정보. https://gs.severance.healthcare/health/index.do",
+      "Mayo Clinic. (n.d.). Healthy lifestyle. https://www.mayoclinic.org/healthy-lifestyle",
+      "Kyu, H. H., Abate, D., Abate, K. H., et al. (2016). Physical activity and risk of breast cancer, colon cancer, diabetes, ischemic heart disease, and ischemic stroke. BMJ, 354, i3857.",
+      "Cappuccio, F. P., D’Elia, L., Strazzullo, P., & Miller, M. A. (2010). Sleep duration and all-cause mortality. Sleep, 33(5), 585–592."
+    ],
+    "content": "단백질 과다섭취 피하고, 염분·인 제한식 유지.",
+    "category": "action_guide",
+    "standard_name": "egfr"
+  },
+  {
+    "id": "a128fc7f-c67a-464a-8411-2429cfefd5aa",
+    "title": "eGFR 낮음 - 행동 가이드",
+    "domain": "exercise",
+    "source": [
+      "질병관리청. (n.d.). 국가건강정보포털 – 건강정보. https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoMain.do",
+      "세브란스병원. (n.d.). 건강정보. https://gs.severance.healthcare/health/index.do",
+      "Mayo Clinic. (n.d.). Healthy lifestyle. https://www.mayoclinic.org/healthy-lifestyle",
+      "Kyu, H. H., Abate, D., Abate, K. H., et al. (2016). Physical activity and risk of breast cancer, colon cancer, diabetes, ischemic heart disease, and ischemic stroke. BMJ, 354, i3857.",
+      "Cappuccio, F. P., D’Elia, L., Strazzullo, P., & Miller, M. A. (2010). Sleep duration and all-cause mortality. Sleep, 33(5), 585–592."
+    ],
+    "content": "유산소운동은 가볍게, 탈수주의.",
+    "category": "action_guide",
+    "standard_name": "egfr"
+  },
+  {
+    "id": "f25771d3-5294-4682-b5b2-2798cd19dd07",
+    "title": "eGFR 낮음 - 행동 가이드",
+    "domain": "sleep_stress",
+    "source": [
+      "질병관리청. (n.d.). 국가건강정보포털 – 건강정보. https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoMain.do",
+      "세브란스병원. (n.d.). 건강정보. https://gs.severance.healthcare/health/index.do",
+      "Mayo Clinic. (n.d.). Healthy lifestyle. https://www.mayoclinic.org/healthy-lifestyle",
+      "Kyu, H. H., Abate, D., Abate, K. H., et al. (2016). Physical activity and risk of breast cancer, colon cancer, diabetes, ischemic heart disease, and ischemic stroke. BMJ, 354, i3857.",
+      "Cappuccio, F. P., D’Elia, L., Strazzullo, P., & Miller, M. A. (2010). Sleep duration and all-cause mortality. Sleep, 33(5), 585–592."
+    ],
+    "content": "스트레스성 혈압↑ → 신기능 저하 악화 가능.",
+    "category": "action_guide",
+    "standard_name": "egfr"
+  },
+  {
+    "id": "bcfb8022-c781-4947-8ad7-85264cead31d",
+    "title": "eGFR 낮음 - 행동 가이드",
+    "domain": "smoking_alcohol",
+    "source": [
+      "질병관리청. (n.d.). 국가건강정보포털 – 건강정보. https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoMain.do",
+      "세브란스병원. (n.d.). 건강정보. https://gs.severance.healthcare/health/index.do",
+      "Mayo Clinic. (n.d.). Healthy lifestyle. https://www.mayoclinic.org/healthy-lifestyle",
+      "Kyu, H. H., Abate, D., Abate, K. H., et al. (2016). Physical activity and risk of breast cancer, colon cancer, diabetes, ischemic heart disease, and ischemic stroke. BMJ, 354, i3857.",
+      "Cappuccio, F. P., D’Elia, L., Strazzullo, P., & Miller, M. A. (2010). Sleep duration and all-cause mortality. Sleep, 33(5), 585–592."
+    ],
+    "content": "신독성 약물·음주 피하기.",
+    "category": "action_guide",
+    "standard_name": "egfr"
+  }
+]

@@ -1,0 +1,218 @@
+[
+  {
+    "id": "83f36c12-4610-4899-a641-e5356239fa48",
+    "title": "신장 - 수치의 의미",
+    "domain": null,
+    "source": [
+      "서울아산병원. (n.d.). 건강정보 – 관리 리스트. https://www.amc.seoul.kr/asan/healthinfo/management/managementList.do?roomCd=A000013",
+      "Johns Hopkins Medicine. (n.d.). Health. https://www.hopkinsmedicine.org/health"
+    ],
+    "content": "[상승 시 의미]\n큰 신장(체격) → BMI 계산 시 동일 체중 대비 BMI ↓\n[감소 시 의미]\n작은 신장(체격) → 동일 체중 대비 BMI ↑\n[해석 참고]\n성장·영양·체형 지표; 의료용량 계산의 보조 변인",
+    "category": "numeric_meaning",
+    "standard_name": "height_cm"
+  },
+  {
+    "id": "3f324870-2b0f-4c0b-9ebc-636310d3ef0b",
+    "title": "체중 - 수치의 의미",
+    "domain": null,
+    "source": [
+      "서울아산병원. (n.d.). 건강정보 – 관리 리스트. https://www.amc.seoul.kr/asan/healthinfo/management/managementList.do?roomCd=A000013",
+      "Johns Hopkins Medicine. (n.d.). Health. https://www.hopkinsmedicine.org/health"
+    ],
+    "content": "[상승 시 의미]\n체지방/근육/수분 증가 가능성\n[감소 시 의미]\n영양불량·체중감소(근육/체지방 감소) 가능성\n[해석 참고]\n체액변화(부종/탈수)에도 민감",
+    "category": "numeric_meaning",
+    "standard_name": "weight_kg"
+  },
+  {
+    "id": "2845bf3d-e174-42ad-b9a3-6e1046432213",
+    "title": "허리둘레 - 수치의 의미",
+    "domain": null,
+    "source": [
+      "서울아산병원. (n.d.). 건강정보 – 관리 리스트. https://www.amc.seoul.kr/asan/healthinfo/management/managementList.do?roomCd=A000013",
+      "Johns Hopkins Medicine. (n.d.). Health. https://www.hopkinsmedicine.org/health"
+    ],
+    "content": "[상승 시 의미]\n내장지방/복부비만 증가 → 대사이상 위험 ↑\n[감소 시 의미]\n복부지방 낮음(체지방 적음)\n[해석 참고]\n허리 기준선·호흡 상태에 따라 변동",
+    "category": "numeric_meaning",
+    "standard_name": "waist_cm"
+  },
+  {
+    "id": "037b04cf-f816-4a93-a9c0-fb5129eb10db",
+    "title": "시력(좌) - 수치의 의미",
+    "domain": null,
+    "source": [
+      "서울아산병원. (n.d.). 건강정보 – 관리 리스트. https://www.amc.seoul.kr/asan/healthinfo/management/managementList.do?roomCd=A000013",
+      "Johns Hopkins Medicine. (n.d.). Health. https://www.hopkinsmedicine.org/health"
+    ],
+    "content": "[상승 시 의미]\n값↑ = 더 좋은 시력(교정 포함 가능)\n[감소 시 의미]\n값↓ = 시력 저하(굴절이상/안질환 단서)\n[해석 참고]\n데이터셋 특성: 0.1 미만은 0.1로, 실명은 9.9로 표기",
+    "category": "numeric_meaning",
+    "standard_name": "vision_left"
+  },
+  {
+    "id": "59073bf0-7496-4462-a4cd-c41f2809cc81",
+    "title": "시력(우) - 수치의 의미",
+    "domain": null,
+    "source": [
+      "서울아산병원. (n.d.). 건강정보 – 관리 리스트. https://www.amc.seoul.kr/asan/healthinfo/management/managementList.do?roomCd=A000013",
+      "Johns Hopkins Medicine. (n.d.). Health. https://www.hopkinsmedicine.org/health"
+    ],
+    "content": "[상승 시 의미]\n값↑ = 더 좋은 시력(교정 포함 가능)\n[감소 시 의미]\n값↓ = 시력 저하(굴절이상/안질환 단서)\n[해석 참고]\n데이터셋 특성 동일",
+    "category": "numeric_meaning",
+    "standard_name": "vision_right"
+  },
+  {
+    "id": "7edff37a-d950-43b1-8d59-63efc0fe6362",
+    "title": "수축기 혈압 - 수치의 의미",
+    "domain": null,
+    "source": [
+      "서울아산병원. (n.d.). 건강정보 – 관리 리스트. https://www.amc.seoul.kr/asan/healthinfo/management/managementList.do?roomCd=A000013",
+      "Johns Hopkins Medicine. (n.d.). Health. https://www.hopkinsmedicine.org/health"
+    ],
+    "content": "[상승 시 의미]\n동맥강성·말초저항·심박출량 관련 부담 ↑\n[감소 시 의미]\n관류 저하(어지럼/실신 위험) 가능\n[해석 참고]\n자세/커프/백의효과 영향 큼",
+    "category": "numeric_meaning",
+    "standard_name": "sbp"
+  },
+  {
+    "id": "e099d38c-93e9-43c7-a98f-abb0de800527",
+    "title": "이완기 혈압 - 수치의 의미",
+    "domain": null,
+    "source": [
+      "서울아산병원. (n.d.). 건강정보 – 관리 리스트. https://www.amc.seoul.kr/asan/healthinfo/management/managementList.do?roomCd=A000013",
+      "Johns Hopkins Medicine. (n.d.). Health. https://www.hopkinsmedicine.org/health"
+    ],
+    "content": "[상승 시 의미]\n소동맥 저항 증가 반영 → 혈관 부담 ↑\n[감소 시 의미]\n과도한 저하는 관류 저하 위험\n[해석 참고]\n맥압과 함께 해석 유용",
+    "category": "numeric_meaning",
+    "standard_name": "dbp"
+  },
+  {
+    "id": "0d81c229-cd8a-47cc-955f-155aa17adb61",
+    "title": "식전혈당(공복혈당) - 수치의 의미",
+    "domain": null,
+    "source": [
+      "서울아산병원. (n.d.). 건강정보 – 관리 리스트. https://www.amc.seoul.kr/asan/healthinfo/management/managementList.do?roomCd=A000013",
+      "Johns Hopkins Medicine. (n.d.). Health. https://www.hopkinsmedicine.org/health"
+    ],
+    "content": "[상승 시 의미]\n간포도당 생산↑/인슐린저항성↑·분비저하 단서\n[감소 시 의미]\n저혈당 위험(섭취/약물/내분비 요인)\n[해석 참고]\n반드시 공복 전제(≥8h)",
+    "category": "numeric_meaning",
+    "standard_name": "fasting_glucose"
+  },
+  {
+    "id": "81ef7ab9-e4bf-4def-98ea-412e840f9e6d",
+    "title": "총 콜레스테롤 - 수치의 의미",
+    "domain": null,
+    "source": [
+      "서울아산병원. (n.d.). 건강정보 – 관리 리스트. https://www.amc.seoul.kr/asan/healthinfo/management/managementList.do?roomCd=A000013",
+      "Johns Hopkins Medicine. (n.d.). Health. https://www.hopkinsmedicine.org/health"
+    ],
+    "content": "[상승 시 의미]\n지질 축적 경향 ↑(동맥경화 위험 신호)\n[감소 시 의미]\n합성/흡수 저하 또는 영양상태 저하 단서\n[해석 참고]\n단독보다 LDL/HDL/TG와 함께 해석",
+    "category": "numeric_meaning",
+    "standard_name": "chol_total"
+  },
+  {
+    "id": "7ef002d3-4449-4ca9-929f-d846d38f885d",
+    "title": "트리글리세라이드 - 수치의 의미",
+    "domain": null,
+    "source": [
+      "서울아산병원. (n.d.). 건강정보 – 관리 리스트. https://www.amc.seoul.kr/asan/healthinfo/management/managementList.do?roomCd=A000013",
+      "Johns Hopkins Medicine. (n.d.). Health. https://www.hopkinsmedicine.org/health"
+    ],
+    "content": "[상승 시 의미]\n중성지방 축적·VLDL 증가 경향\n[감소 시 의미]\n영양/흡수·호르몬 상태 변화 단서\n[해석 참고]\n식후·음주 영향 큼(단기 변동성↑)",
+    "category": "numeric_meaning",
+    "standard_name": "triglyceride"
+  },
+  {
+    "id": "3ae5dd4e-d484-4539-810e-312276ae7b07",
+    "title": "HDL 콜레스테롤 - 수치의 의미",
+    "domain": null,
+    "source": [
+      "서울아산병원. (n.d.). 건강정보 – 관리 리스트. https://www.amc.seoul.kr/asan/healthinfo/management/managementList.do?roomCd=A000013",
+      "Johns Hopkins Medicine. (n.d.). Health. https://www.hopkinsmedicine.org/health"
+    ],
+    "content": "[상승 시 의미]\n역콜레스테롤 수송↑(보호효과 신호)\n[감소 시 의미]\n보호효과 감소(동맥경화 위험 ↑)\n[해석 참고]\n생활습관(운동/흡연) 영향 큼",
+    "category": "numeric_meaning",
+    "standard_name": "chol_hdl"
+  },
+  {
+    "id": "8909a49f-a6be-4fc4-95a3-747ec3c0676a",
+    "title": "LDL 콜레스테롤 - 수치의 의미",
+    "domain": null,
+    "source": [
+      "서울아산병원. (n.d.). 건강정보 – 관리 리스트. https://www.amc.seoul.kr/asan/healthinfo/management/managementList.do?roomCd=A000013",
+      "Johns Hopkins Medicine. (n.d.). Health. https://www.hopkinsmedicine.org/health"
+    ],
+    "content": "[상승 시 의미]\n죽상경화 경향↑(혈관 침착 신호)\n[감소 시 의미]\n합성/흡수 저하·특정 내분비 상태 단서\n[해석 참고]\n위험평가의 핵심 지표",
+    "category": "numeric_meaning",
+    "standard_name": "chol_ldl"
+  },
+  {
+    "id": "4c9dc61e-beaa-4fb0-9188-a515047adcf0",
+    "title": "혈색소 - 수치의 의미",
+    "domain": null,
+    "source": [
+      "서울아산병원. (n.d.). 건강정보 – 관리 리스트. https://www.amc.seoul.kr/asan/healthinfo/management/managementList.do?roomCd=A000013",
+      "Johns Hopkins Medicine. (n.d.). Health. https://www.hopkinsmedicine.org/health"
+    ],
+    "content": "[상승 시 의미]\n산소운반능 ↑(탈수/적혈구↑ 등 가능)\n[감소 시 의미]\n빈혈(산소운반능 ↓) 단서\n[해석 참고]\n체액상태·생리/임신 영향",
+    "category": "numeric_meaning",
+    "standard_name": "hemoglobin"
+  },
+  {
+    "id": "0d6bbb5b-9eb2-40a2-9a3f-26d0741e65e8",
+    "title": "요단백 - 수치의 의미",
+    "domain": null,
+    "source": [
+      "서울아산병원. (n.d.). 건강정보 – 관리 리스트. https://www.amc.seoul.kr/asan/healthinfo/management/managementList.do?roomCd=A000013",
+      "Johns Hopkins Medicine. (n.d.). Health. https://www.hopkinsmedicine.org/health"
+    ],
+    "content": "[상승 시 의미]\n음성→미검출, 강도↑ → 사구체/세뇨관 이상 가능성↑\n[해석 참고]\n일시적 양성(운동/발열) 존재—지속성 중요",
+    "category": "numeric_meaning",
+    "standard_name": "urine_protein"
+  },
+  {
+    "id": "2b2fcb6f-b1ba-47a7-bacc-3e471d1a07d6",
+    "title": "혈청 크레아티닌 - 수치의 의미",
+    "domain": null,
+    "source": [
+      "서울아산병원. (n.d.). 건강정보 – 관리 리스트. https://www.amc.seoul.kr/asan/healthinfo/management/managementList.do?roomCd=A000013",
+      "Johns Hopkins Medicine. (n.d.). Health. https://www.hopkinsmedicine.org/health"
+    ],
+    "content": "[상승 시 의미]\n사구체 여과기능 저하 단서\n[감소 시 의미]\n근육량 감소 등 단서\n[해석 참고]\neGFR 산출의 핵심 입력",
+    "category": "numeric_meaning",
+    "standard_name": "creatinine"
+  },
+  {
+    "id": "7f5c3254-9bb4-4374-b9f1-9bbc27109384",
+    "title": "AST - 수치의 의미",
+    "domain": null,
+    "source": [
+      "서울아산병원. (n.d.). 건강정보 – 관리 리스트. https://www.amc.seoul.kr/asan/healthinfo/management/managementList.do?roomCd=A000013",
+      "Johns Hopkins Medicine. (n.d.). Health. https://www.hopkinsmedicine.org/health"
+    ],
+    "content": "[상승 시 의미]\n세포 손상(간/근육/심근 등) 신호\n[해석 참고]\n근손상·격운동도 상승 가능",
+    "category": "numeric_meaning",
+    "standard_name": "ast"
+  },
+  {
+    "id": "0f889bd1-11e2-4cda-bf22-2dd28dd3a70d",
+    "title": "ALT - 수치의 의미",
+    "domain": null,
+    "source": [
+      "서울아산병원. (n.d.). 건강정보 – 관리 리스트. https://www.amc.seoul.kr/asan/healthinfo/management/managementList.do?roomCd=A000013",
+      "Johns Hopkins Medicine. (n.d.). Health. https://www.hopkinsmedicine.org/health"
+    ],
+    "content": "[상승 시 의미]\n간세포 손상 신호(상대적 간특이↑)\n[해석 참고]\n경미 상승도 지속성 중요",
+    "category": "numeric_meaning",
+    "standard_name": "alt"
+  },
+  {
+    "id": "ee190aa6-3c3a-4247-8bcd-f22b3d8ee00f",
+    "title": "γ-GTP - 수치의 의미",
+    "domain": null,
+    "source": [
+      "서울아산병원. (n.d.). 건강정보 – 관리 리스트. https://www.amc.seoul.kr/asan/healthinfo/management/managementList.do?roomCd=A000013",
+      "Johns Hopkins Medicine. (n.d.). Health. https://www.hopkinsmedicine.org/health"
+    ],
+    "content": "[상승 시 의미]\n담도정체/알코올/약물·지방간 반응 신호\n[해석 참고]\n알코올·대사이상 영향 민감",
+    "category": "numeric_meaning",
+    "standard_name": "ggtp"
+  }
+]

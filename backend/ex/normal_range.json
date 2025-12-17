@@ -1,0 +1,206 @@
+[
+  {
+    "id": "f6482446-4b69-44fe-bc2e-6049ec854bca",
+    "title": "수축기 혈압 - 정상 범위/위험도 판정",
+    "domain": null,
+    "source": [
+      "보건복지부. (2025). 건강검진 실시기준: 별표 4 건강검진결과 판정기준. 보건복지부고시 제2025-5호. https://www.nhis.or.kr/lm/lmxsrv/law/lawFullView.do?SEQ=80&SEQ_HISTORY=46542",
+      "서울아산병원. (n.d.). 건강정보 – 관리 리스트. https://www.amc.seoul.kr/asan/healthinfo/management/managementList.do?roomCd=A000013"
+    ],
+    "content": "[구분] 고혈압\n[단위] mmHg\n[정상(A)] 120 미만\n[경계(B)] 120–139\n[질환 의심(C)] 140 이상",
+    "category": "normal_range",
+    "standard_name": "sbp"
+  },
+  {
+    "id": "ea35f49b-c6ca-4d79-9bb7-74522deceb31",
+    "title": "이완기 혈압 - 정상 범위/위험도 판정",
+    "domain": null,
+    "source": [
+      "보건복지부. (2025). 건강검진 실시기준: 별표 4 건강검진결과 판정기준. 보건복지부고시 제2025-5호. https://www.nhis.or.kr/lm/lmxsrv/law/lawFullView.do?SEQ=80&SEQ_HISTORY=46542",
+      "서울아산병원. (n.d.). 건강정보 – 관리 리스트. https://www.amc.seoul.kr/asan/healthinfo/management/managementList.do?roomCd=A000013"
+    ],
+    "content": "[구분] 고혈압\n[단위] mmHg\n[정상(A)] 80 미만\n[경계(B)] 80–89\n[질환 의심(C)] 90 이상",
+    "category": "normal_range",
+    "standard_name": "dbp"
+  },
+  {
+    "id": "10f988f1-8cb0-410a-a144-348afb668e99",
+    "title": "BMI (체질량지수) - 정상 범위/위험도 판정",
+    "domain": null,
+    "source": [
+      "보건복지부. (2025). 건강검진 실시기준: 별표 4 건강검진결과 판정기준. 보건복지부고시 제2025-5호. https://www.nhis.or.kr/lm/lmxsrv/law/lawFullView.do?SEQ=80&SEQ_HISTORY=46542",
+      "서울아산병원. (n.d.). 건강정보 – 관리 리스트. https://www.amc.seoul.kr/asan/healthinfo/management/managementList.do?roomCd=A000013"
+    ],
+    "content": "[구분] 비만\n[단위] kg/m²\n[정상(A)] 18.5–24.9\n[경계(B)] 25–29.9\n[질환 의심(C)] 30 이상",
+    "category": "normal_range",
+    "standard_name": "bmi"
+  },
+  {
+    "id": "c8233aff-df42-460e-93e8-fe1f2fb80b92",
+    "title": "허리둘레 - 정상 범위/위험도 판정",
+    "domain": null,
+    "source": [
+      "보건복지부. (2025). 건강검진 실시기준: 별표 4 건강검진결과 판정기준. 보건복지부고시 제2025-5호. https://www.nhis.or.kr/lm/lmxsrv/law/lawFullView.do?SEQ=80&SEQ_HISTORY=46542",
+      "서울아산병원. (n.d.). 건강정보 – 관리 리스트. https://www.amc.seoul.kr/asan/healthinfo/management/managementList.do?roomCd=A000013"
+    ],
+    "content": "[구분] 비만\n[단위] cm\n[정상(A)] 남 <90 / 여 <85\n[경계(B)] —\n[질환 의심(C)] 남 ≥90 / 여 ≥85",
+    "category": "normal_range",
+    "standard_name": "waist_cm"
+  },
+  {
+    "id": "4d2e892a-093b-46b0-a794-83cdd5e6b0d2",
+    "title": "혈색소 (남) - 정상 범위/위험도 판정",
+    "domain": null,
+    "source": [
+      "보건복지부. (2025). 건강검진 실시기준: 별표 4 건강검진결과 판정기준. 보건복지부고시 제2025-5호. https://www.nhis.or.kr/lm/lmxsrv/law/lawFullView.do?SEQ=80&SEQ_HISTORY=46542",
+      "서울아산병원. (n.d.). 건강정보 – 관리 리스트. https://www.amc.seoul.kr/asan/healthinfo/management/managementList.do?roomCd=A000013"
+    ],
+    "content": "[구분] 빈혈\n[단위] g/dL\n[정상(A)] 13.0–16.5\n[경계(B)] 12.0–12.9\n[질환 의심(C)] 12.0 미만",
+    "category": "normal_range",
+    "standard_name": "hemoglobin_male"
+  },
+  {
+    "id": "7b899325-6c71-41f5-8d2e-c3189ffa8beb",
+    "title": "혈색소 (여) - 정상 범위/위험도 판정",
+    "domain": null,
+    "source": [
+      "보건복지부. (2025). 건강검진 실시기준: 별표 4 건강검진결과 판정기준. 보건복지부고시 제2025-5호. https://www.nhis.or.kr/lm/lmxsrv/law/lawFullView.do?SEQ=80&SEQ_HISTORY=46542",
+      "서울아산병원. (n.d.). 건강정보 – 관리 리스트. https://www.amc.seoul.kr/asan/healthinfo/management/managementList.do?roomCd=A000013"
+    ],
+    "content": "[구분] 빈혈\n[단위] g/dL\n[정상(A)] 12.0–15.5\n[경계(B)] 10.0–11.9\n[질환 의심(C)] 10.0 미만",
+    "category": "normal_range",
+    "standard_name": "hemoglobin_female"
+  },
+  {
+    "id": "78005659-15df-470d-ba22-8665d1d0724d",
+    "title": "공복혈당 - 정상 범위/위험도 판정",
+    "domain": null,
+    "source": [
+      "보건복지부. (2025). 건강검진 실시기준: 별표 4 건강검진결과 판정기준. 보건복지부고시 제2025-5호. https://www.nhis.or.kr/lm/lmxsrv/law/lawFullView.do?SEQ=80&SEQ_HISTORY=46542",
+      "서울아산병원. (n.d.). 건강정보 – 관리 리스트. https://www.amc.seoul.kr/asan/healthinfo/management/managementList.do?roomCd=A000013"
+    ],
+    "content": "[구분] 당뇨병\n[단위] mg/dL\n[정상(A)] 100 미만\n[경계(B)] 100–125\n[질환 의심(C)] 126 이상",
+    "category": "normal_range",
+    "standard_name": "fasting_glucose"
+  },
+  {
+    "id": "9c8dbb93-b636-47ef-a9fd-5c4dc2c71531",
+    "title": "총콜레스테롤 - 정상 범위/위험도 판정",
+    "domain": null,
+    "source": [
+      "보건복지부. (2025). 건강검진 실시기준: 별표 4 건강검진결과 판정기준. 보건복지부고시 제2025-5호. https://www.nhis.or.kr/lm/lmxsrv/law/lawFullView.do?SEQ=80&SEQ_HISTORY=46542",
+      "서울아산병원. (n.d.). 건강정보 – 관리 리스트. https://www.amc.seoul.kr/asan/healthinfo/management/managementList.do?roomCd=A000013"
+    ],
+    "content": "[구분] 이상지질혈증\n[단위] mg/dL\n[정상(A)] 200 미만\n[경계(B)] 200–239\n[질환 의심(C)] 240 이상",
+    "category": "normal_range",
+    "standard_name": "chol_total"
+  },
+  {
+    "id": "2792486a-a196-4e0b-8012-ade9b889f41e",
+    "title": "HDL 콜레스테롤 - 정상 범위/위험도 판정",
+    "domain": null,
+    "source": [
+      "보건복지부. (2025). 건강검진 실시기준: 별표 4 건강검진결과 판정기준. 보건복지부고시 제2025-5호. https://www.nhis.or.kr/lm/lmxsrv/law/lawFullView.do?SEQ=80&SEQ_HISTORY=46542",
+      "서울아산병원. (n.d.). 건강정보 – 관리 리스트. https://www.amc.seoul.kr/asan/healthinfo/management/managementList.do?roomCd=A000013"
+    ],
+    "content": "[구분] 이상지질혈증\n[단위] mg/dL\n[정상(A)] 60 이상\n[경계(B)] 40–59\n[질환 의심(C)] 40 미만",
+    "category": "normal_range",
+    "standard_name": "chol_hdl"
+  },
+  {
+    "id": "a57b9776-3450-4916-8526-05c582fb5c18",
+    "title": "트리글리세라이드 - 정상 범위/위험도 판정",
+    "domain": null,
+    "source": [
+      "보건복지부. (2025). 건강검진 실시기준: 별표 4 건강검진결과 판정기준. 보건복지부고시 제2025-5호. https://www.nhis.or.kr/lm/lmxsrv/law/lawFullView.do?SEQ=80&SEQ_HISTORY=46542",
+      "서울아산병원. (n.d.). 건강정보 – 관리 리스트. https://www.amc.seoul.kr/asan/healthinfo/management/managementList.do?roomCd=A000013"
+    ],
+    "content": "[구분] 이상지질혈증\n[단위] mg/dL\n[정상(A)] 150 미만\n[경계(B)] 150–199\n[질환 의심(C)] 200 이상",
+    "category": "normal_range",
+    "standard_name": "triglyceride"
+  },
+  {
+    "id": "a4bcf4df-8de1-476d-b0fa-25066be22dcc",
+    "title": "LDL 콜레스테롤 - 정상 범위/위험도 판정",
+    "domain": null,
+    "source": [
+      "보건복지부. (2025). 건강검진 실시기준: 별표 4 건강검진결과 판정기준. 보건복지부고시 제2025-5호. https://www.nhis.or.kr/lm/lmxsrv/law/lawFullView.do?SEQ=80&SEQ_HISTORY=46542",
+      "서울아산병원. (n.d.). 건강정보 – 관리 리스트. https://www.amc.seoul.kr/asan/healthinfo/management/managementList.do?roomCd=A000013"
+    ],
+    "content": "[구분] 이상지질혈증\n[단위] mg/dL\n[정상(A)] 130 미만\n[경계(B)] 130–159\n[질환 의심(C)] 160 이상",
+    "category": "normal_range",
+    "standard_name": "chol_ldl"
+  },
+  {
+    "id": "ebc5afcc-4e99-43ae-a355-e196c80dc604",
+    "title": "AST (GOT) - 정상 범위/위험도 판정",
+    "domain": null,
+    "source": [
+      "보건복지부. (2025). 건강검진 실시기준: 별표 4 건강검진결과 판정기준. 보건복지부고시 제2025-5호. https://www.nhis.or.kr/lm/lmxsrv/law/lawFullView.do?SEQ=80&SEQ_HISTORY=46542",
+      "서울아산병원. (n.d.). 건강정보 – 관리 리스트. https://www.amc.seoul.kr/asan/healthinfo/management/managementList.do?roomCd=A000013"
+    ],
+    "content": "[구분] 간기능\n[단위] U/L\n[정상(A)] 40 이하\n[경계(B)] 41–50\n[질환 의심(C)] 51 이상",
+    "category": "normal_range",
+    "standard_name": "ast"
+  },
+  {
+    "id": "b013fd8c-fde5-4af7-b624-1fbb49730a51",
+    "title": "ALT (GPT) - 정상 범위/위험도 판정",
+    "domain": null,
+    "source": [
+      "보건복지부. (2025). 건강검진 실시기준: 별표 4 건강검진결과 판정기준. 보건복지부고시 제2025-5호. https://www.nhis.or.kr/lm/lmxsrv/law/lawFullView.do?SEQ=80&SEQ_HISTORY=46542",
+      "서울아산병원. (n.d.). 건강정보 – 관리 리스트. https://www.amc.seoul.kr/asan/healthinfo/management/managementList.do?roomCd=A000013"
+    ],
+    "content": "[구분] 간기능\n[단위] U/L\n[정상(A)] 35 이하\n[경계(B)] 36–45\n[질환 의심(C)] 46 이상",
+    "category": "normal_range",
+    "standard_name": "alt"
+  },
+  {
+    "id": "f6f0a5dd-0e1e-4f23-b5de-29ccaffb8a96",
+    "title": "감마 GTP - 정상 범위/위험도 판정",
+    "domain": null,
+    "source": [
+      "보건복지부. (2025). 건강검진 실시기준: 별표 4 건강검진결과 판정기준. 보건복지부고시 제2025-5호. https://www.nhis.or.kr/lm/lmxsrv/law/lawFullView.do?SEQ=80&SEQ_HISTORY=46542",
+      "서울아산병원. (n.d.). 건강정보 – 관리 리스트. https://www.amc.seoul.kr/asan/healthinfo/management/managementList.do?roomCd=A000013"
+    ],
+    "content": "[구분] 간기능\n[단위] U/L\n[정상(A)] 남 11–63 / 여 8–35\n[경계(B)] 남 64–77 / 여 36–45\n[질환 의심(C)] 남 78 이상 / 여 46 이상",
+    "category": "normal_range",
+    "standard_name": "ggtp"
+  },
+  {
+    "id": "1fbff3c9-e6f7-4282-94d9-a48f28128c89",
+    "title": "요단백 - 정상 범위/위험도 판정",
+    "domain": null,
+    "source": [
+      "보건복지부. (2025). 건강검진 실시기준: 별표 4 건강검진결과 판정기준. 보건복지부고시 제2025-5호. https://www.nhis.or.kr/lm/lmxsrv/law/lawFullView.do?SEQ=80&SEQ_HISTORY=46542",
+      "서울아산병원. (n.d.). 건강정보 – 관리 리스트. https://www.amc.seoul.kr/asan/healthinfo/management/managementList.do?roomCd=A000013"
+    ],
+    "content": "[구분] 신장기능\n[단위] -\n[정상(A)] 음성 (–)\n[경계(B)] 약양성 (±)\n[질환 의심(C)] 양성 (+1) 이상",
+    "category": "normal_range",
+    "standard_name": "urine_protein"
+  },
+  {
+    "id": "39690de4-31c7-4859-bb23-0c9f757f32e0",
+    "title": "혈청 크레아티닌 - 정상 범위/위험도 판정",
+    "domain": null,
+    "source": [
+      "보건복지부. (2025). 건강검진 실시기준: 별표 4 건강검진결과 판정기준. 보건복지부고시 제2025-5호. https://www.nhis.or.kr/lm/lmxsrv/law/lawFullView.do?SEQ=80&SEQ_HISTORY=46542",
+      "서울아산병원. (n.d.). 건강정보 – 관리 리스트. https://www.amc.seoul.kr/asan/healthinfo/management/managementList.do?roomCd=A000013"
+    ],
+    "content": "[구분] 신장기능\n[단위] mg/dL\n[정상(A)] 1.5 이하\n[경계(B)] —\n[질환 의심(C)] 1.5 초과",
+    "category": "normal_range",
+    "standard_name": "creatinine"
+  },
+  {
+    "id": "c1f63802-a70b-4aa9-97ec-1790441234e0",
+    "title": "eGFR - 정상 범위/위험도 판정",
+    "domain": null,
+    "source": [
+      "보건복지부. (2025). 건강검진 실시기준: 별표 4 건강검진결과 판정기준. 보건복지부고시 제2025-5호. https://www.nhis.or.kr/lm/lmxsrv/law/lawFullView.do?SEQ=80&SEQ_HISTORY=46542",
+      "서울아산병원. (n.d.). 건강정보 – 관리 리스트. https://www.amc.seoul.kr/asan/healthinfo/management/managementList.do?roomCd=A000013"
+    ],
+    "content": "[구분] 신장기능\n[단위] mL/min/1.73㎡\n[정상(A)] 60 이상\n[경계(B)] —\n[질환 의심(C)] 60 미만",
+    "category": "normal_range",
+    "standard_name": "egfr"
+  }
+]

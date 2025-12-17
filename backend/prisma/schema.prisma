@@ -1,0 +1,77 @@
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+enum Gender {
+  MALE
+  FEMALE
+  OTHER
+}
+
+enum Sender {
+  USER
+  AI
+}
+
+model User {
+  id   Int    @id @default(autoincrement())
+  name String
+
+  checkups CheckUp[]
+  chats    Chat[]
+}
+
+model CheckUp {
+  id      Int      @id @default(autoincrement())
+  userId  Int
+  age     Int
+  gender  Gender
+  date    DateTime @default(now())
+  content String
+
+  user User @relation(fields: [userId], references: [id])
+
+  @@index([userId])
+}
+
+model Chat {
+  id Int @id @default(autoincrement())
+
+  userId Int
+  title  String
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  user          User           @relation(fields: [userId], references: [id])
+  conversations Conversation[]
+
+  @@index([userId])
+}
+
+model Conversation {
+  id Int @id @default(autoincrement())
+
+  chatId  Int
+  sender  Sender
+  content String
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  chat Chat @relation(fields: [chatId], references: [id])
+
+  @@index([chatId])
+}
+
+model StandardRef {
+  id Int @id @default(autoincrement())
+
+  category String
+  content  Json
+}
