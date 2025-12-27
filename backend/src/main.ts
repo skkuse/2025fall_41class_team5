@@ -22,9 +22,9 @@ async function bootstrap() {
 
   SwaggerModule.setup('/docs', app, document);
 
-  await app.listen(3000);
+  await app.listen(8000);
 
-  console.log(`Server running on http://localhost:3000/docs`);
+  console.log(`Server running on http://localhost:8000/docs`);
 }
 
 bootstrap();

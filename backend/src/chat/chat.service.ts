@@ -1,6 +1,7 @@
 import { Injectable, NotFoundException } from '@nestjs/common';
 import { PrismaService } from '../prisma/prisma.service';
 import { SendChatRequest } from './dto/request/send-chat.request';
+import { AnalyzeHealthDataRequest } from './dto/request/analyze-health-data.request';
 import { OpenAI } from 'openai';
 import { Chat, Conversation, Sender } from '@prisma/client';
 
@@ -12,7 +13,7 @@ export class ChatService {
     userId: number,
     request: SendChatRequest,
   ): Promise<{ chat: Chat; aiResponse: Conversation }> {
-    const { content, chatId, healthData } = request;
+    const { content, chatId } = request;
 
     const chat = await (async () => {
       if (chatId) {
@@ -40,7 +41,66 @@ export class ChatService {
       data: {
         chatId: chat.id,
         sender: Sender.USER,
-        content: content || `[Health Data] ${JSON.stringify(healthData)}`,
+        content,
+      },
+    });
+
+    const previousConversations = await this.prisma.conversation.findMany({
+      where: { chatId: chat.id },
+      orderBy: { createdAt: 'asc' },
+    });
+
+    const llmResponse = await this._callOpenAI(
+      content,
+      undefined,
+      [],
+      previousConversations,
+    );
+
+    const aiResponse = await this.prisma.conversation.create({
+      data: {
+        chatId: chat.id,
+        sender: Sender.AI,
+        content: llmResponse,
+      },
+    });
+
+    return { chat, aiResponse };
+  }
+
+  async analyzeHealthData(
+    userId: number,
+    request: AnalyzeHealthDataRequest,
+  ): Promise<{ chat: Chat; aiResponse: Conversation }> {
+    const { healthData, chatId } = request;
+
+    const chat = await (async () => {
+      if (chatId) {
+        const existingChat = await this.prisma.chat.findFirst({
+          where: { id: chatId, userId },
+        });
+
+        if (!existingChat) {
+          throw new NotFoundException('존재하지 않는 채팅방입니다.');
+        }
+        return existingChat;
+      }
+
+      const title = await this._generateChatTitle();
+
+      return this.prisma.chat.create({
+        data: {
+          userId,
+          title,
+        },
+      });
+    })();
+
+    await this.prisma.conversation.create({
+      data: {
+        chatId: chat.id,
+        sender: Sender.USER,
+        content: `[Health Data] ${JSON.stringify(healthData)}`,
       },
     });
 
@@ -55,14 +115,16 @@ export class ChatService {
 
     const currentHealthData = healthData || existingHealthData;
 
-    const standardRefs = currentHealthData
-      ? await this.prisma.standardRef.findMany({
-          take: 5,
-        })
-      : [];
+    const standardRefs = await this.prisma.standardRef.findMany({
+      where: {
+        category: {
+          in: ['numeric_meaning', 'normal_range'],
+        },
+      },
+    });
 
     const llmResponse = await this._callOpenAI(
-      content,
+      undefined,
       currentHealthData,
       standardRefs,
       previousConversations,
@@ -110,6 +172,14 @@ export class ChatService {
     await this.prisma.chat.delete({ where: { id: chatId } });
   }
 
+  async additionalAnalyze(term: string, category: string): Promise<string> {
+    const standardRefs = await this.prisma.standardRef.findMany({
+      where: { category },
+    });
+
+    return this._callOpenAIForAdditionalAnalyze(term, category, standardRefs);
+  }
+
   private _extractHealthDataFromHistory(conversations: Conversation[]): any {
     for (const conv of conversations) {
       if (
@@ -127,6 +197,30 @@ export class ChatService {
       }
     }
     return null;
+  }
+
+  private _removeDuplicateReferences(content: string): string {
+    const refPattern = /\{"([^"]+)":\s*"([^"]+)"\}/g;
+    const matches = [...content.matchAll(refPattern)];
+    
+    if (matches.length === 0) return content;
+
+    const seenRefs = new Map<string, string>();
+    let result = content;
+
+    matches.forEach((match) => {
+      const fullMatch = match[0];
+      const refKey = match[1];
+      const refValue = match[2];
+
+      if (seenRefs.has(refKey)) {
+        result = result.replace(fullMatch, '');
+      } else {
+        seenRefs.set(refKey, refValue);
+      }
+    });
+
+    return result;
   }
 
   private async _generateChatTitle(firstMessage?: string): Promise<string> {
@@ -159,16 +253,16 @@ export class ChatService {
   ): Promise<string> {
     const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
 
-    const systemContent = `
-    - 당신은 사용자의 건강검진 결과를 전문적으로 분석해주는 의료 정보 분석 AI입니다.
-    - 사용자는 2가지 행동을 요청할 수 있습니다: (1) 건강 상태 분석 (HealthData가 주어진 경우) (2) 일반 질문
-    - 건강 상태 분석 요청 시, 다음 지침을 반드시 따릅니다:
-      1. 사용자가 제공하는 건강검진 수치(Health Data)를 기반으로 전반적인 건강 상태를 해석하고, 정상 범위 여부를 명확히 알려줍니다(Standard Reference 참조).
-      2. 용어 정의(Definition), 수치 해석(Numeric Meaning), 정상 범위(Normal Range), 원인(Cause), 행동 가이드(Action Guide) 등 5가지 카테고리로 나누어 설명합니다.
-      3. Standard Reference를 참고한 내용은 옆에 참고문헌을 반드시 [{"name": "", "link": ""}, {"name": "", "link": ""}] 형태로 명시합니다.
-    - 사용자가 이해하기 쉽도록 전문 용어를 풀어서 설명합니다.
-    - 질병 진단이나 치료 지시는 하지 않으며, 어디까지나 참고용 조언만 제공합니다.
-    - 이미 제공된 정보는 대화 기록에서 확인합니다.`;
+    const systemContent = `당신은 사용자의 건강검진 결과를 전문적으로 분석해주는 의료 정보 분석 AI입니다.
+      건강 상태 분석 시 다음 지침을 따르세요:
+      1. 건강검진 수치를 기반으로 정상 수치와 해석을 구분하여 설명합니다.
+      2. Standard Reference를 참고한 내용 옆에 참고문헌을 다음 형식으로 명시합니다: {"자료명": "링크"}
+        예시: {"보건복지부. (2025). 건강검진 실시기준: 별표 4 건강검진결과 판정기준. 보건복지부고시 제2025-5호.": "https://www.nhis.or.kr/lm/lmxsrv/law/lawFullView.do?SEQ=80&SEQ_HISTORY=46542"}
+      3. 동일한 참고문헌을 중복해서 표시하지 마세요. 각 참고문헌은 한 번만 명시합니다.
+      4. 질병 진단이나 치료 지시는 하지 않으며, 참고용 조언만 제공합니다.
+      5. 이전 대화 내용을 참고하여 일관성 있는 답변을 제공합니다.
+      6. 이모티콘을 적당히 사용하여 사용자 친화적인 답변을 제공합니다.
+      `;
 
     const healthContext =
       healthData && standardRefs?.length
@@ -210,6 +304,53 @@ export class ChatService {
       messages,
     });
 
-    return completion.choices[0].message.content || '';
+    const response = completion.choices[0].message.content || '';
+    return this._removeDuplicateReferences(response);
+  }
+
+  private async _callOpenAIForAdditionalAnalyze(
+    term: string,
+    category: string,
+    standardRefs: any[],
+  ): Promise<string> {
+    const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
+
+    const prompts: Record<string, string> = {
+      action_guide: `당신은 의료 용어에 대한 행동 가이드를 제공하는 AI입니다. "${term}"에 대한 구체적인 행동 지침과 권장사항을 설명하세요.`,
+      cause: `당신은 의료 용어의 원인을 설명하는 AI입니다. "${term}"의 발생 원인과 위험 요인을 설명하세요.`,
+      definition: `당신은 의료 용어를 정의하는 AI입니다. "${term}"의 의학적 정의와 의미를 설명하세요.`,
+    };
+
+    const refContext = standardRefs.length
+      ? `\n\n[Standard References]\n${JSON.stringify(
+          standardRefs.map((ref) => ref.content),
+          null,
+          2,
+        )}`
+      : '';
+
+    const completion = await openai.chat.completions.create({
+      model: 'gpt-4o',
+      messages: [
+        {
+          role: 'system',
+          content: `${prompts[category]}
+            Standard Reference를 참고한 내용 옆에 참고문헌을 다음 형식으로 명시합니다: {"자료명": "링크"}
+            예시: {"보건복지부. (2025). 건강검진 실시기준: 별표 4 건강검진결과 판정기준. 보건복지부고시 제2025-5호.": "https://www.nhis.or.kr/lm/lmxsrv/law/lawFullView.do?SEQ=80&SEQ_HISTORY=46542"}
+            동일한 참고문헌을 중복해서 표시하지 마세요. 각 참고문헌은 한 번만 명시합니다.
+            질병 진단이나 치료 지시는 하지 않으며, 참고용 조언만 제공합니다.
+            이전 대화 내용을 참고하여 일관성 있는 답변을 제공합니다.
+            이모티콘을 적당히 사용하여 사용자 친화적인 답변을 제공합니다.
+          `,
+        },
+        {
+          role: 'user',
+          content: `"${term}"에 대해 설명해줘${refContext}`,
+        },
+      ],
+    });
+
+    const response = completion.choices[0].message.content || '';
+    return this._removeDuplicateReferences(response);
   }
 }

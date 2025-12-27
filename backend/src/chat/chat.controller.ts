@@ -10,12 +10,15 @@ import {
 import { ApiTags, ApiOperation, ApiBearerAuth } from '@nestjs/swagger';
 import { ChatService } from './chat.service';
 import { SendChatRequest } from './dto/request/send-chat.request';
+import { AnalyzeHealthDataRequest } from './dto/request/analyze-health-data.request';
 import { ChatListResponse } from './dto/response/chat-list.response';
 import { SuccessStatusResponse } from 'common/response';
 import { JwtAuthGuard } from '../auth/jwt-auth.guard';
 import { User } from '../auth/user.decorator';
 import { SendChatResponse } from './dto/response/send-chat.response';
 import { ConversationListResponse } from './dto/response/conversation-list.response';
+import { AdditionalAnalyzeRequest } from './dto/request/additional-analyze.request';
+import { AdditionalAnalyzeResponse } from './dto/response/additional-analyze.response';
 
 @ApiTags('Chat')
 @ApiBearerAuth('Authorization')
@@ -31,6 +34,20 @@ export class ChatController {
     @Body() request: SendChatRequest,
   ): Promise<SendChatResponse> {
     const { chat, aiResponse } = await this.chatService.sendChat(
+      user.userId,
+      request,
+    );
+
+    return new SendChatResponse(chat, aiResponse);
+  }
+
+  @Post('/analyze-health')
+  @ApiOperation({ summary: '건강검진 데이터 분석' })
+  async analyzeHealthData(
+    @User() user: { userId: number },
+    @Body() request: AnalyzeHealthDataRequest,
+  ): Promise<SendChatResponse> {
+    const { chat, aiResponse } = await this.chatService.analyzeHealthData(
       user.userId,
       request,
     );
@@ -67,5 +84,18 @@ export class ChatController {
     await this.chatService.deleteChat(user.userId, chatId);
 
     return new SuccessStatusResponse('Chat deleted successfully');
+  }
+
+  @Post('/additional-analyze')
+  @ApiOperation({ summary: '추가 분석 (action_guide, cause, definition)' })
+  async additionalAnalyze(
+    @Body() request: AdditionalAnalyzeRequest,
+  ): Promise<AdditionalAnalyzeResponse> {
+    const content = await this.chatService.additionalAnalyze(
+      request.term,
+      request.category,
+    );
+
+    return new AdditionalAnalyzeResponse(content);
   }
 }

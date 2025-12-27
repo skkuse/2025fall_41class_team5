@@ -1,108 +1,229 @@
 import { create } from 'zustand';
 import { HealthCheckupFormData } from '@/types/health';
+import { AnalysisCategory } from '@/types/analysis'; //
 
 const API_BASE_URL = '/backend-api';
 
-// =========================
-// 🔹 API 응답 타입 정의
-// =========================
-type ConversationApiItem = {
+// ==========================
+// 🔹 API 요청/응답 타입 정의
+// ==========================
+
+interface GeneralChatRequest {
+  chatId?: number;
+  content: string;
+}
+
+interface HealthAnalyzeRequest {
+  chatId?: number;
+  content: string;
+  healthData: HealthCheckupFormData;
+}
+
+interface ConversationApiItem {
   id: number | string;
   sender: string;
   content: string;
-};
+  suggestedQuestions?: string[];
+  showAnalysisButtons?: boolean;
+}
 
-type ChatApiResponse = {
-  conversationList: ConversationApiItem[];
-};
+interface ChatApiResponse {
+  chatId?: number;
+  conversationId?: number | string;
+  content?: string;
+  conversationList?: ConversationApiItem[];
+  suggestedQuestions?: string[];
+}
 
-// =========================
-// 🔹 메시지 타입
-// =========================
+interface UserInfo {
+  userId: number;
+  [key: string]: unknown;
+}
+
+// ==========================
+// 🔹 스토어 타입 정의
+// ==========================
+
 export type Message = {
   id: number | string;
   role: 'user' | 'ai';
   text: string;
   hasForm?: boolean;
   formData?: HealthCheckupFormData;
+  suggestedQuestions?: string[];
+  showAnalysisButtons?: boolean; //
 };
 
 type ChatState = {
   messages: Message[];
+  currentChatId: number | null;
   isLoading: boolean;
   addMessage: (message: Message) => void;
   removeMessage: (id: number | string) => void;
-  fetchMessages: (userId: number, accessToken: string) => Promise<void>;
+  setCurrentChatId: (id: number | null) => void;
+  fetchMessages: (chatId: number, accessToken: string) => Promise<void>;
+  sendMessage: (
+    content: string,
+    accessToken: string,
+    user: UserInfo,
+    healthData?: HealthCheckupFormData,
+  ) => Promise<void>;
+  sendAdditionalAnalysis: (term: string, category: AnalysisCategory, accessToken: string) => Promise<void>; //
+  sendHealthAnalysis: (healthData: HealthCheckupFormData, accessToken: string) => Promise<void>; //
   mapApiToMessages: (apiData: ChatApiResponse) => Message[];
   resetChat: () => void;
 };
 
 export const useChatStore = create<ChatState>((set, get) => ({
   messages: [],
+  currentChatId: null,
   isLoading: false,
 
   addMessage: message => set(state => ({ messages: [...state.messages, message] })),
   removeMessage: id => set(state => ({ messages: state.messages.filter(msg => msg.id !== id) })),
+  setCurrentChatId: id => set({ currentChatId: id }),
 
-  // =========================
-  // 🔹 API 데이터를 UI 메시지로 변환
-  // =========================
-  mapApiToMessages: (apiData: ChatApiResponse): Message[] => {
-    console.log('📌 백엔드 응답:', apiData);
+  sendMessage: async (content, accessToken, user, healthData) => {
+    const { addMessage, removeMessage, currentChatId } = get();
+    const loadingId = 'loading-' + Date.now();
 
-    if (!apiData || !Array.isArray(apiData.conversationList)) {
-      console.warn('⚠ conversations 배열 없음:', apiData);
-      return [];
-    }
-
-    return apiData.conversationList.map(
-      (conv): Message => ({
-        id: conv.id,
-        role: conv.sender.toLowerCase() === 'user' ? 'user' : 'ai',
-        text: conv.content,
-        hasForm: false,
-        formData: undefined,
-      }),
-    );
-  },
-
-  // =========================
-  // 🔹 채팅 기록 가져오기
-  // =========================
-  fetchMessages: async (userId, accessToken) => {
-    set({ isLoading: true });
-
-    if (!userId || !accessToken) {
-      set({ isLoading: false });
-      console.warn('채팅 기록을 불러올 수 없습니다: 인증 정보 부족.');
-      return;
-    }
+    addMessage({ id: loadingId, role: 'ai', text: 'loading' });
 
     try {
-      const res = await fetch(`${API_BASE_URL}/chat/${userId}`, {
-        method: 'GET',
+      const isAnalyze = !!healthData;
+      const url = `${API_BASE_URL}/chat${isAnalyze ? '/analyze-health' : ''}`;
+
+      const body: GeneralChatRequest | HealthAnalyzeRequest =
+        isAnalyze && healthData
+          ? {
+              ...(currentChatId ? { chatId: currentChatId } : {}),
+              content,
+              healthData,
+            }
+          : {
+              content,
+              ...(currentChatId ? { chatId: currentChatId } : {}),
+            };
+
+      const res = await fetch(url, {
+        method: 'POST',
         headers: {
-          accept: 'application/json',
+          'Content-Type': 'application/json',
           Authorization: `Bearer ${accessToken}`,
         },
+        body: JSON.stringify(body),
       });
 
-      if (!res.ok) {
-        throw new Error('Failed to fetch chat history');
+      const data: ChatApiResponse = await res.json();
+      removeMessage(loadingId);
+
+      if (data.chatId && currentChatId !== data.chatId) {
+        set({ currentChatId: data.chatId });
       }
 
-      const data: ChatApiResponse = await res.json();
-      const newMessages = get().mapApiToMessages(data);
-
-      set({ messages: newMessages, isLoading: false });
+      addMessage({
+        id: data.conversationId || Date.now(),
+        role: 'ai',
+        text: data.content || '',
+        suggestedQuestions: data.suggestedQuestions || ['더 자세히 설명해줘', '고마워!'],
+        showAnalysisButtons: isAnalyze,
+      });
     } catch (error) {
-      console.error('채팅 기록 로드 오류:', error);
-      set({ isLoading: false, messages: [] });
+      console.error('메시지 전송 오류:', error);
+      removeMessage(loadingId);
     }
   },
 
-  // =========================
-  // 🔹 로그아웃 시 채팅 초기화
-  // =========================
-  resetChat: () => set({ messages: [] }),
+  sendAdditionalAnalysis: async (term, category, accessToken) => {
+    const { addMessage, removeMessage } = get();
+    const loadingId = 'loading-' + Date.now();
+    addMessage({ id: loadingId, role: 'ai', text: 'loading' });
+
+    try {
+      const res = await fetch(`${API_BASE_URL}/chat/additional-analyze`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          Authorization: `Bearer ${accessToken}`,
+        },
+        body: JSON.stringify({ term, category }),
+      });
+      const data: ChatApiResponse = await res.json();
+      removeMessage(loadingId);
+      addMessage({
+        id: data.conversationId || Date.now(),
+        role: 'ai',
+        text: data.content || '',
+        showAnalysisButtons: true,
+      });
+    } catch (error) {
+      console.error('추가 분석 오류:', error);
+      removeMessage(loadingId);
+    }
+  },
+
+  sendHealthAnalysis: async (healthData, accessToken) => {
+    const { addMessage, removeMessage, currentChatId } = get();
+    const loadingId = 'loading-' + Date.now();
+    addMessage({ id: loadingId, role: 'ai', text: 'loading' });
+
+    try {
+      const res = await fetch(`${API_BASE_URL}/chat/analyze-health`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          Authorization: `Bearer ${accessToken}`,
+        },
+        body: JSON.stringify({
+          ...(currentChatId ? { chatId: currentChatId } : {}),
+          healthData,
+        }),
+      });
+      const data: ChatApiResponse = await res.json();
+      removeMessage(loadingId);
+      if (data.chatId && currentChatId !== data.chatId) {
+        set({ currentChatId: data.chatId });
+      }
+
+      addMessage({
+        id: data.conversationId || Date.now(),
+        role: 'ai',
+        text: data.content || '',
+        showAnalysisButtons: true,
+      });
+    } catch (error) {
+      console.error('건강 분석 오류:', error);
+      removeMessage(loadingId);
+    }
+  },
+
+  fetchMessages: async (chatId, accessToken) => {
+    set({ isLoading: true, currentChatId: chatId });
+    try {
+      const res = await fetch(`${API_BASE_URL}/chat/${chatId}`, {
+        headers: { Authorization: `Bearer ${accessToken}` },
+      });
+      const data: ChatApiResponse = await res.json();
+      set({
+        messages: get().mapApiToMessages(data),
+        isLoading: false,
+      });
+    } catch (error) {
+      console.error('메시지 로드 오류:', error);
+      set({ isLoading: false });
+    }
+  },
+
+  mapApiToMessages: (apiData: ChatApiResponse) => {
+    if (!apiData || !Array.isArray(apiData.conversationList)) return [];
+    return apiData.conversationList.map((conv: ConversationApiItem) => ({
+      id: conv.id,
+      role: conv.sender.toLowerCase() === 'user' ? 'user' : 'ai',
+      text: conv.content,
+      suggestedQuestions: conv.suggestedQuestions || [],
+      showAnalysisButtons: conv.showAnalysisButtons || false, //
+    }));
+  },
+
+  resetChat: () => set({ messages: [], currentChatId: null }),
 }));
